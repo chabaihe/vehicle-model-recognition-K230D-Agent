@@ -1,0 +1,37 @@
+# ======================================================================
+#  Git 换行符与文本属性
+# ======================================================================
+# 本项目在 Windows 上开发。批处理文件必须是 CRLF 换行，
+# 否则 cmd.exe 会解析异常（表现为每行首字符被吃掉）。
+#
+# 为什么这里 .bat 用 `-text` 而不是 `text eol=crlf`：
+#   `text eol=crlf` 会把仓库里的内容归一化成 LF，只在检出版本时转回 CRLF。
+#   但 GitHub 的「Download ZIP」不走 git 检出流程，直接给仓库里的原始内容，
+#   于是 ZIP 里的 .bat 会是 LF，下载下来无法运行。
+#   `-text` 表示不做任何换行转换，仓库里存的就是 CRLF，任何方式获取都对。
+# ======================================================================
+
+# 批处理文件：原样保存 CRLF，不做换行转换
+*.bat   -text
+*.cmd   -text
+
+# 脚本与文档：统一 LF（跨平台友好）
+*.py    text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.ini   text eol=lf
+*.json  text eol=lf
+*.html  text eol=lf
+*.csv   text eol=lf
+
+# 二进制文件：不做换行转换
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.kmodel binary
+*.onnx   binary
+*.pth    binary
+*.mp4    binary
+*.zip    binary
+*.pptx   binary
+*.docx   binary

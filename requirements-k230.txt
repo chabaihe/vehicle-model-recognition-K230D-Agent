@@ -1,0 +1,59 @@
+# ======================================================================
+#  车辆型号识别项目 — K230D 模型转换环境（nncase）
+# ======================================================================
+# 适用目录：
+#   03_代码_K230部署/
+#     · convert_to_kmodel_car1000.py   ONNX → kmodel（核心）
+#     · convert_to_kmodel.py           Stanford 版（对照用）
+#     · verify_kpu_plugin.py           验证 KPU 插件是否装好
+#
+# ⚠️ 三个硬性要求：
+#
+#   1. 必须用【独立虚拟环境】，不能和主环境混装。
+#      nncase 依赖的 numpy/protobuf 版本与 torch 有冲突。
+#
+#   2. Python 版本必须是 3.10 ~ 3.12。
+#      nncase 2.11.0 的 wheel 只发布到 cp312，
+#      Python 3.13 / 3.14 会直接报「找不到匹配的发行版」。
+#
+#   3. nncase 和 nncase-kpu 是两个不同的包，两个都要装。
+#      只装 nncase 会报：
+#        KeyNotFoundException: 'k230' was not present in the dictionary
+#      因为「编译器本体」和「KPU 硬件插件」是分开发布的。
+#
+# 安装方式（任选其一）：
+#   A. 一键安装（推荐）— 双击仓库根目录的  install-k230.bat
+#   B. 手动 —
+#        python -m venv .venv_nncase
+#        .venv_nncase\Scripts\activate
+#        pip install -r requirements-k230.txt
+# ======================================================================
+
+# ----------------------------------------------------------------------
+# 【重要】nncase-kpu 在 Windows 上必须走 GitHub 直链，不能用 PyPI！
+#
+#   PyPI 上 nncase-kpu 2.11.0 只发布了 Linux wheel
+#   （nncase_kpu-2.11.0-py2.py3-none-manylinux...whl），
+#   没有 Windows 版本。所以在 Windows 上执行
+#       pip install nncase-kpu==2.11.0
+#   会报：Could not find a version that satisfies ...
+#         (from versions: none)
+#
+#   官方 Windows wheel 只在 GitHub Releases 里：
+#     nncase_kpu-2.11.0-py2.py3-none-win_amd64.whl  （约 1.27 MB）
+#
+#   下面用 PEP 508 的平台标记分别处理两个系统。
+# ----------------------------------------------------------------------
+
+nncase==2.11.0        # 编译器本体（版本必须锁死，不同版本 API 不兼容）
+
+# KPU 插件：Windows 走 GitHub 直链，Linux/macOS 走 PyPI
+nncase-kpu @ https://github.com/kendryte/nncase/releases/download/v2.11.0/nncase_kpu-2.11.0-py2.py3-none-win_amd64.whl ; sys_platform == "win32"
+nncase-kpu==2.11.0 ; sys_platform != "win32"
+
+# ---------- 下面这些是转换脚本自身需要的 ----------
+numpy>=1.26           # 实测 2.5.4
+pillow>=10.0          # 实测 12.3.0
+onnx>=1.15            # 实测 1.23.2
+
+# 说明：protobuf / ml_dtypes / typing_extensions 由 nncase / onnx 自动带上。

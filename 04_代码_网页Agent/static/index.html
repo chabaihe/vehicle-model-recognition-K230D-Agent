@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>车辆识别 Agent</title>
+<style>
+  :root{
+    --blue:#0F4D92; --blue-l:#3775BA; --blue-bg:#EEF4FB;
+    --green:#2E7D32; --green-bg:#EDF7EE;
+    --red:#B64342;   --red-bg:#FDF1F1;
+    --amber:#8C5A00; --amber-bg:#FFF7E6;
+    --gray:#6B7280;  --line:#E2E8F0;
+    --ink:#1F2937;   --bg:#F7F9FC;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;font-family:"Microsoft YaHei","Segoe UI",system-ui,sans-serif;
+       color:var(--ink);background:var(--bg);font-size:14px;line-height:1.6}
+
+  /* ---------- 顶栏 ---------- */
+  header{background:var(--blue);color:#fff;padding:0 22px;height:62px;
+         display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  header h1{margin:0;font-size:18px;font-weight:600;letter-spacing:.3px}
+  .badges{display:flex;gap:8px;margin-left:auto;flex-wrap:wrap}
+  .badge{font-size:12px;padding:3px 11px;border-radius:12px;
+         background:rgba(255,255,255,.16);white-space:nowrap}
+  .badge.ok::before{content:"✓ ";color:#8BE08B;font-weight:700}
+  .badge.no::before{content:"✕ ";color:#FFA9A9;font-weight:700}
+  .tagline{width:100%;font-size:12px;color:#9EC5E8;margin:-6px 0 0}
+
+  /* ---------- 主体 ---------- */
+  main{display:grid;grid-template-columns:390px 1fr;gap:16px;
+       padding:16px;height:calc(100vh - 62px);align-items:start}
+  .col{display:flex;flex-direction:column;gap:14px;min-height:0;height:100%}
+
+  .card{background:#fff;border:1px solid var(--line);border-radius:10px;
+        display:flex;flex-direction:column;min-height:0;overflow:hidden}
+  .card > h2{margin:0;padding:11px 16px;font-size:13.5px;font-weight:600;
+             color:var(--blue);background:#FAFBFD;border-bottom:1px solid var(--line)}
+  .card > .body{padding:14px 16px;overflow-y:auto;min-height:0}
+
+  /* ---------- 上传区 ---------- */
+  #drop{border:2px dashed #C9D6E5;border-radius:9px;background:#FCFDFF;
+        padding:22px 14px;text-align:center;cursor:pointer;transition:.15s}
+  #drop:hover,#drop.over{border-color:var(--blue-l);background:var(--blue-bg)}
+  #drop b{color:var(--blue);font-size:14px}
+  #drop p{margin:5px 0 0;font-size:12.5px;color:var(--gray)}
+  #preview{max-width:100%;max-height:230px;border-radius:7px;margin-top:12px;
+           display:none;border:1px solid var(--line)}
+  .fname{font-size:12px;color:var(--gray);margin-top:7px;word-break:break-all}
+
+  input[type=text]{width:100%;padding:9px 11px;border:1px solid #CBD5E1;
+                   border-radius:7px;font-size:13.5px;font-family:inherit;outline:none}
+  input[type=text]:focus{border-color:var(--blue-l)}
+
+  button{border:0;border-radius:7px;font-family:inherit;cursor:pointer;
+         font-size:14px;font-weight:600;transition:.15s}
+  #go{width:100%;padding:12px;background:var(--blue);color:#fff;margin-top:12px}
+  #go:not(:disabled):hover{background:#0C3E77}
+  #go:disabled{background:#BCC9DA;cursor:not-allowed}
+  #clr{width:100%;padding:9px;background:#fff;color:var(--gray);
+       border:1px solid var(--line);font-weight:500;font-size:13px;margin-top:9px}
+
+  .hint{margin-top:14px;padding:11px 13px;background:var(--blue-bg);
+        border-radius:7px;font-size:12.5px;color:#33475B;line-height:1.75}
+  .hint b{color:var(--blue)}
+  .hint ol{margin:6px 0 0;padding-left:19px}
+
+  .warn{display:none;padding:10px 13px;background:var(--amber-bg);
+        border:1px solid #FFD591;border-radius:7px;font-size:12.5px;
+        color:var(--amber);margin-bottom:12px;line-height:1.7}
+
+  /* ---------- 步骤流 ---------- */
+  #steps{font-size:13px}
+  .empty{color:#9AA5B1;font-size:13px;padding:8px 0}
+  .round{display:flex;align-items:center;gap:9px;margin:16px 0 10px;
+         font-size:12px;font-weight:700;color:var(--gray)}
+  .round::after{content:"";flex:1;height:1px;background:var(--line)}
+  .round:first-child{margin-top:0}
+
+  .step{border-radius:8px;padding:10px 13px;margin-bottom:9px;
+        border-left:3px solid var(--line);background:#FAFBFD}
+  .step .hdr{font-size:11px;font-weight:700;letter-spacing:.5px;margin-bottom:5px}
+  .step .txt{white-space:pre-wrap;word-break:break-word;font-size:13px;line-height:1.75}
+
+  .step.thought{border-color:var(--blue-l);background:var(--blue-bg)}
+  .step.thought .hdr{color:var(--blue)}
+  .step.action{border-color:var(--green);background:var(--green-bg)}
+  .step.action .hdr{color:var(--green)}
+  .step.obs{border-color:#CBD5E1;background:#FBFCFD}
+  .step.obs .hdr{color:var(--gray)}
+  .step.obs .txt{font-family:Consolas,"Courier New",monospace;font-size:12.5px}
+  .step.err{border-color:var(--red);background:var(--red-bg)}
+  .step.err .hdr{color:var(--red)}
+  .step.info{border-color:#CBD5E1;background:#F8FAFC}
+  .step.info .hdr{color:var(--gray)}
+
+  /* ---------- 结论 ---------- */
+  #answer{font-size:13.5px;line-height:1.85;white-space:pre-wrap;word-break:break-word}
+  #answer.empty{color:#9AA5B1}
+  #meta{font-size:12px;color:var(--gray);margin-top:10px;
+        padding-top:9px;border-top:1px dashed var(--line)}
+
+  .spin{display:inline-block;width:12px;height:12px;border:2px solid #fff;
+        border-top-color:transparent;border-radius:50%;
+        animation:sp .7s linear infinite;vertical-align:-2px;margin-right:7px}
+  @keyframes sp{to{transform:rotate(360deg)}}
+
+  ::-webkit-scrollbar{width:9px;height:9px}
+  ::-webkit-scrollbar-thumb{background:#C9D3E0;border-radius:5px}
+  ::-webkit-scrollbar-thumb:hover{background:#A9B6C7}
+
+  @media (max-width:1000px){
+    main{grid-template-columns:1fr;height:auto}
+    .col{height:auto}
+    #stepsCard .body{max-height:52vh}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>车辆识别 Agent</h1>
+  <div class="badges" id="badges"><span class="badge">检查中…</span></div>
+  <div class="tagline">ReAct 架构 · 本地深度学习模型（离线 25.87 MB） + 云端多模态大模型 + 联网搜索</div>
+</header>
+
+<main>
+  <!-- ================= 左栏：输入 ================= -->
+  <div class="col">
+    <div class="card">
+      <h2>上传车辆图片</h2>
+      <div class="body">
+        <div class="warn" id="warn"></div>
+
+        <div id="drop">
+          <b>点击选择图片</b>
+          <p>或把图片拖到这里</p>
+          <p>支持 jpg / png / webp</p>
+        </div>
+        <input type="file" id="file" accept="image/*" style="display:none">
+        <img id="preview" alt="预览">
+        <div class="fname" id="fname"></div>
+
+        <input type="text" id="note" placeholder="补充说明（可选），例如：想了解这车的价格"
+               style="margin-top:12px">
+        <button id="go" disabled>开始识别</button>
+        <button id="clr">清空</button>
+
+        <div class="hint">
+          <b>Agent 会做什么：</b>
+          <ol>
+            <li>用<b>本地模型</b>离线识别（约 17 ms，不联网）</li>
+            <li>用<b>云端大模型</b>识别一次，做对照</li>
+            <li>按需<b>联网搜索</b>该车的参数价格</li>
+            <li>综合成结论</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= 右栏：过程 + 结论 ================= -->
+  <div class="col">
+    <div class="card" id="stepsCard" style="flex:1 1 auto">
+      <h2>Agent 思考过程</h2>
+      <div class="body" id="steps">
+        <div class="empty">上传图片后，这里会实时显示 Agent 的每一步。</div>
+      </div>
+    </div>
+
+    <div class="card" style="flex:0 0 auto;max-height:46%">
+      <h2>最终结论</h2>
+      <div class="body">
+        <div id="answer" class="empty">等待识别…</div>
+        <div id="meta"></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+let imgB64 = null, fname = '';
+let finished = false, finishTimer = null;
+
+/* ---------- 状态徽章 ---------- */
+fetch('/api/status').then(r => r.json()).then(s => {
+  const items = [
+    ['本地模型', s.model], ['云端大模型', s.llm], ['联网搜索', s.search]
+  ];
+  $('badges').innerHTML = items.map(([n, ok]) =>
+    `<span class="badge ${ok ? 'ok' : 'no'}">${n}</span>`).join('');
+  const miss = [];
+  if (!s.model) miss.push('本地 ONNX 模型缺失');
+  if (!s.llm) miss.push('未配置 DeepSeek 密钥（config.ini）');
+  if (!s.search) miss.push('未配置 Tavily 密钥（config.ini）');
+  if (miss.length) { $('warn').style.display = 'block';
+    $('warn').innerHTML = '⚠️ ' + miss.join('；') + '<br>相关工具将不可用。'; }
+}).catch(() => {
+  $('badges').innerHTML = '<span class="badge no">服务未连接</span>';
+});
+
+/* ---------- 选图 ---------- */
+$('drop').onclick = () => $('file').click();
+$('drop').ondragover = e => { e.preventDefault(); $('drop').classList.add('over'); };
+$('drop').ondragleave = () => $('drop').classList.remove('over');
+$('drop').ondrop = e => { e.preventDefault(); $('drop').classList.remove('over');
+                          if (e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]); };
+$('file').onchange = e => { if (e.target.files[0]) handleFile(e.target.files[0]); };
+
+function handleFile(f) {
+  fname = f.name;
+  const rd = new FileReader();
+  rd.onload = () => {
+    imgB64 = rd.result;
+    $('preview').src = rd.result; $('preview').style.display = 'block';
+    $('fname').textContent = f.name + '  （' + Math.round(f.size / 1024) + ' KB）';
+    $('go').disabled = false;
+  };
+  rd.readAsDataURL(f);
+}
+
+$('clr').onclick = () => {
+  imgB64 = null; fname = '';
+  $('preview').style.display = 'none'; $('preview').src = '';
+  $('fname').textContent = ''; $('file').value = ''; $('note').value = '';
+  $('go').disabled = true;
+  $('steps').innerHTML = '<div class="empty">上传图片后，这里会实时显示 Agent 的每一步。</div>';
+  $('answer').className = 'empty'; $('answer').textContent = '等待识别…';
+  $('meta').textContent = '';
+};
+
+/* ---------- 步骤渲染 ---------- */
+const LBL = {thought: 'THOUGHT 思考', action: 'ACTION 行动',
+             observation: 'OBSERVATION 观察', error: 'ERROR 错误', info: 'INFO 信息'};
+
+function addStep(kind, label, text) {
+  const d = document.createElement('div');
+  d.className = 'step ' + kind;
+  const h = document.createElement('div');
+  h.className = 'hdr'; h.textContent = label;
+  const t = document.createElement('div');
+  t.className = 'txt'; t.textContent = text || '';
+  d.appendChild(h); d.appendChild(t);
+  $('steps').appendChild(d);
+  $('steps').scrollTop = $('steps').scrollHeight;
+}
+
+function finishUI(msg) {
+  finished = true;
+  if (finishTimer) { clearTimeout(finishTimer); finishTimer = null; }
+  if (msg) { $('answer').className = ''; $('answer').textContent = msg; }
+  $('go').disabled = false;
+  $('go').textContent = '开始识别';
+}
+
+/* ---------- 主流程 ---------- */
+$('go').onclick = async () => {
+  if (!imgB64) return;
+  finished = false;
+  $('go').disabled = true;
+  $('go').innerHTML = '<span class="spin"></span>分析中…';
+  $('steps').innerHTML = '';
+  $('answer').className = 'empty'; $('answer').textContent = '分析中…';
+  $('meta').textContent = '';
+  finishTimer = setTimeout(() => finishUI(
+    '⚠️ 超时：3 分钟未收到完整响应。\n请检查运行 start.bat 的窗口是否有报错。'), 180000);
+
+  try {
+    const blob = await (await fetch(imgB64)).blob();
+    const fd = new FormData();
+    fd.append('image', blob, fname || 'upload.jpg');
+    fd.append('note', $('note').value || '');
+
+    const res = await fetch('/api/analyze', {method: 'POST', body: fd, cache: 'no-store'});
+    if (!res.ok || !res.body) throw new Error('HTTP ' + res.status);
+
+    const reader = res.body.getReader();
+    const dec = new TextDecoder();
+    let buf = '', got = false;
+
+    while (true) {
+      const {done, value} = await reader.read();
+      if (done) break;
+      buf += dec.decode(value, {stream: true});
+      const parts = buf.split('\n\n');
+      buf = parts.pop();
+      for (const p of parts) {
+        const line = p.trim();
+        if (!line.startsWith('data:')) continue;
+        const raw = line.slice(5).trim();
+        if (raw === '[DONE]') continue;
+        let ev; try { ev = JSON.parse(raw); } catch (e) { continue; }
+        got = true;
+        render(ev);
+      }
+    }
+    if (!got) throw new Error('服务端没有返回任何事件');
+    if (!finished) finishUI('⚠️ 连接已断开，未收到最终结论。请查看服务窗口日志。');
+  } catch (err) {
+    addStep('err', 'ERROR 错误',
+      '请求失败：' + err.message +
+      '\n\n请确认：\n  1) 运行 start.bat 的窗口还开着（关掉窗口 = 服务停止）\n' +
+      '  2) 浏览器访问的是 http://127.0.0.1:8000\n' +
+      '  3) 若端口被占用，服务窗口会打印实际端口，请用那个端口');
+    finishUI('❌ 分析失败：' + err.message);
+  }
+};
+
+function render(ev) {
+  switch (ev.type) {
+    case 'open': break;
+    case 'info': addStep('info', LBL.info, ev.msg); break;
+    case 'round': {
+      const d = document.createElement('div');
+      d.className = 'round'; d.textContent = '第 ' + ev.n + ' 轮';
+      $('steps').appendChild(d);
+      $('steps').scrollTop = $('steps').scrollHeight;
+      break;
+    }
+    case 'thought': addStep('thought', LBL.thought, ev.text); break;
+    case 'action':
+      addStep('action', LBL.action,
+              ev.tool + '(' + (ev.args ? '"' + ev.args + '"' : '') + ')');
+      break;
+    case 'observation':
+      addStep('obs', LBL.observation + ' · ' + ev.tool, ev.text); break;
+    case 'error': addStep('err', LBL.error, ev.msg); break;
+    case 'finish':
+      $('answer').className = ''; $('answer').textContent = ev.text; break;
+    case 'done':
+      $('answer').className = ''; $('answer').textContent = ev.answer;
+      $('meta').textContent = '总耗时 ' + ev.elapsed + ' 秒';
+      finishUI(null);
+      break;
+  }
+}
+</script>
+</body>
+</html>

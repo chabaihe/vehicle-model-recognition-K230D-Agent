@@ -1,0 +1,62 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# ---------- 虚拟环境 ----------
+venv/
+.venv/
+env/
+ENV/
+# install-k230.bat 会创建这个环境（默认在 %LOCALAPPDATA%，
+# 若手动指定到仓库内也会被忽略）
+.venv_nncase/
+
+# ---------- 密钥（重要） ----------
+config.ini
+*.key
+.env
+secrets.ini
+
+# ---------- 数据集与权重（体积过大，不入库） ----------
+data/
+datasets/
+*.pth
+*.pt
+
+# 大的 ONNX 不入库：
+#   FP32 版 97.41 MB（接近 GitHub 100 MB 单文件上限，且会让 clone 很慢）
+#   .pth 97.80 MB（训练产物，可由 train_car1000.py 重新生成）
+*_224.onnx
+*_fp32.onnx
+
+# 【例外】仓库随附 INT8 动态量化版（24.53 MB），保证开箱即可跑网页 Agent
+!05_模型文件/cars1000_resnet50_224_int8.onnx
+
+# ---------- 训练中间产物 ----------
+results/
+runs/
+logs/
+*.log
+checkpoint*.pth
+
+# ---------- 编辑器与系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 临时文件 ----------
+*.tmp
+*~
+
+# ---------- 演示文稿 ----------
+# PPT 与视频属于演示材料，体积大且非代码，不入库
+*.pptx
+*.mp4

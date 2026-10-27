@@ -1,0 +1,11 @@
+{
+  "backbone": "resnet50",
+  "size": 224,
+  "n": 500,
+  "pt_top1": 0.86,
+  "onnx_top1": 0.86,
+  "agree": 1.0,
+  "logits_maxdiff": 2.9e-05,
+  "onnx_cpu_latency_ms": 22.7,
+  "passed": true
+}

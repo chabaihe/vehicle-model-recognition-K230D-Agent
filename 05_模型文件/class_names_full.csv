@@ -1,0 +1,1001 @@
+﻿index,class_id,name_cn,name_en,big_type
+0,0000,江铃_凯运,JMC_Kaiyun,卡车
+1,0001,远程汽车_远程星智H,Farizon Auto_Farizon Star H,卡车
+2,0002,东风风神_东风风神E70,Dongfeng Fengshen_E70,轿车
+3,0003,宇通客车_宇通T7,Yutong_T7,轻客
+4,0004,曹操汽车_曹操60,Caocao_60,轿车
+5,0005,宝马_宝马M5,BMW_M5,轿车
+6,0006,捷豹_捷豹F-PACE,Jaguar_F-PACE,SUV
+7,0007,比亚迪_海豚,BYD_Dolphin,轿车
+8,0008,奥迪_奥迪A7L,Audi_Audi A7L,轿车
+9,0009,沃尔沃_沃尔沃S90,Volvo_Volvo S90,轿车
+10,0010,荣威_荣威RX3,Roewe_RX3,SUV
+11,0011,捷豹_捷豹E-PACE,Jaguar_E-PACE,SUV
+12,0012,奔驰_奔驰CLS级AMG,Mercedes-Benz_CLS AMG,轿车
+13,0013,本田_享域,Honda_Envix,轿车
+14,0014,保时捷_Cayenne Coupe,Porsche_Cayenne Coupe,SUV
+15,0015,宝马_宝马6系GT,BMW_6 Series GT,轿车
+16,0016,现代_现代i20,Hyundai_i20,轿车
+17,0017,大众_ID.4 X,Volkswagen_ID.4 X,SUV
+18,0018,哪吒汽车_哪吒U,Nezha Auto_Nezha U,SUV
+19,0019,吉利汽车_星瑞,Geely_Star Rui,轿车
+20,0020,宝马_宝马M4,BMW_M4,轿车
+21,0021,北汽昌河_北汽昌河M50S,BAIC Changhe_BAIC Changhe M50S,微面
+22,0022,名爵_MG Cyberster,MG_MG Cyberster,跑车
+23,0023,现代_名图,Hyundai_Mistra,轿车
+24,0024,吉利几何_吉利几何C,Geometry_C,SUV
+25,0025,五菱汽车_五菱之光,Wuling Motors_Wuling Sunshine,微面
+26,0026,宝马_宝马5系PHEV,BMW_5 Series PHEV,轿车
+27,0027,福田_智蓝精灵,Foton_Zhilan Elf,轻客
+28,0028,上汽大通MAXUS_上汽大通MAXUS T60,SAIC Maxus_SAIC Maxus T60,卡车
+29,0029,保时捷_Macan,Porsche_Macan,SUV
+30,0030,丰田_丰田bZ3,Toyota_bZ3,轿车
+31,0031,金杯_金杯大海狮,Jinbei_Grand Sea Lion,轻客
+32,0032,大众_大众CC,Volkswagen_Volkswagen CC,轿车
+33,0033,上汽大通MAXUS_上汽大通MAXUS G90,SAIC Maxus_G90,MPV
+34,0034,大众_探岳GTE,Volkswagen_Tiguan GTE,SUV
+35,0035,大众_朗逸,Volkswagen_Lavida,轿车
+36,0036,睿蓝汽车_枫叶80v PRO,Riich_Maple 80v PRO,MPV
+37,0037,AITO_问界M5,AITO_Ask World M5,SUV
+38,0038,奥迪_奥迪Q5 e-tron,Audi_Q5 e-tron,SUV
+39,0039,丰田_赛那,Toyota_Sienna,MPV
+40,0040,睿蓝汽车_睿蓝7,Ruilan Auto_Ruilan 7,SUV
+41,0041,吉利汽车_豪越L,Geely_Haoyue L,SUV
+42,0042,五十铃_TAGA达咖H,Isuzu_TAGA Dacar H,卡车
+43,0043,起亚_焕驰,Kia_Morning,轿车
+44,0044,广汽传祺_传祺GS3,GAC Trumpchi_Trumpchi GS3,SUV
+45,0045,岚图_岚图梦想家 EV,Lantu_Lantu Dreamer EV,MPV
+46,0046,长安凯程_睿行M70,Changan Kaicheng_Ruixing M70,轻客
+47,0047,吉利汽车_星越L,Geely_Star Yue L,SUV
+48,0048,马自达_马自达CX-4,Mazda_Mazda CX-4,SUV
+49,0049,远程汽车_远程锋锐F3E,Farizon Auto_Farizon Sharp F3E,卡车
+50,0050,金杯_金杯快运,Jinbei_Fast Delivery,轻客
+51,0051,长安跨越_跨越星V5 EV,Changan Kuayue_Kuayue Star V5 EV,微面
+52,0052,广汽传祺_传祺GS4,GAC Trumpchi_Trumpchi GS4,SUV
+53,0053,阿斯顿·马丁_阿斯顿·马丁DB12,Aston Martin_Aston Martin DB12,跑车
+54,0054,思皓_思皓曜,Sehol_Eray,轿车
+55,0055,江汽集团_江淮T8,JAC Motors_Jianghuai T8,卡车
+56,0056,玛莎拉蒂_玛莎拉蒂MC20,Maserati_Maserati MC20,跑车
+57,0057,奔驰_奔驰G级,Mercedes-Benz_Mercedes-Benz G-Class,SUV
+58,0058,比亚迪_比亚迪e9,BYD_e9,轿车
+59,0059,奔驰_奔驰GLC AMG,Mercedes-Benz_GLC AMG,SUV
+60,0060,上汽大通MAXUS_上汽大通MAXUS G50,SAIC Maxus_SAIC Maxus G50,MPV
+61,0061,丰田_埃尔法,Toyota_Alphard,MPV
+62,0062,斯巴鲁_FORESTER森林人,Subaru_Forester,SUV
+63,0063,宝马_宝马3系,BMW_BMW 3 Series,轿车
+64,0064,日产_逍客,Nissan_Qashqai,SUV
+65,0065,捷尼赛思_捷尼赛思G70,Genesis_G70,轿车
+66,0066,奥迪_奥迪A2,Audi_A2,轿车
+67,0067,坦克_赛博坦克300,Tank_CyberTank 300,SUV
+68,0068,奇瑞_瑞虎8 PLUS鲲鹏e+,Chery_Tiggo 8 PLUS Kunpeng e+,SUV
+69,0069,吉利汽车_帝豪L HiP,Geely_Emgrand L HiP,轿车
+70,0070,北汽制造_王牌M7 EV,BAIC Weiwang_M7 EV,MPV
+71,0071,保时捷_Panamera E-Hybrid,Porsche_Panamera E-Hybrid,轿车
+72,0072,北汽制造_卡路里,BAIC Manufacturing_Calorie,卡车
+73,0073,起亚_起亚K3,Kia_K3,轿车
+74,0074,北京_北京BJ80,BAIC_BJ80,SUV
+75,0075,起亚_起亚K5,Kia_K5,轿车
+76,0076,奇瑞_瑞虎7 PLUS,Chery_Tiggo 7 PLUS,SUV
+77,0077,福特_探险者,Ford_Explorer,SUV
+78,0078,长安凯程_睿行M80,Changan Kaicheng_Ruixing M80,轻客
+79,0079,奥迪_奥迪A6 International Version,Audi_A6 International Version,轿车
+80,0080,日产_途乐,Nissan_Patrol,SUV
+81,0081,五菱汽车_五菱之光小卡,Wuling Motors_Wuling Zhiguang Mini Truck,卡车
+82,0082,丰田_凌放HARRIER,Toyota_Harrier,SUV
+83,0083,长安欧尚_长安欧尚Z6,Changan Oushang_Changan Oushang Z6,SUV
+84,0084,丰田_Supra,Toyota_Supra,跑车
+85,0085,魏牌_蓝山DHT-PHEV,Wei Brand_Lanshan DHT-PHEV,SUV
+86,0086,丰田_凌尚,Toyota_Allion,轿车
+87,0087,奔驰_奔驰EQS SUV,Mercedes-Benz_EQS SUV,SUV
+88,0088,长安_逸动EV,Changan_Eado EV,轿车
+89,0089,长城_风骏7,Great Wall_Wingle 7,卡车
+90,0090,北汽昌河_昌河北斗星,BAIC Changhe_Changhe Beidouxing,轿车
+91,0091,沃尔沃_沃尔沃C40 RECHARGE,Volvo_C40 Recharge,SUV
+92,0092,本田_本田S660,Honda_S660,跑车
+93,0093,现代_现代i10,Hyundai_i10,轿车
+94,0094,捷途_捷途旅行者,Jetour_Jetour Traveler,SUV
+95,0095,中兴_大领主,ZTE_Grand Lord,卡车
+96,0096,上汽大通MAXUS_上汽大通MAXUS G20,SAIC Maxus_G20,MPV
+97,0097,捷途_捷途X90,Jetour_X90,SUV
+98,0098,SERES赛力斯_赛力斯SF5,SERES_SF5,SUV
+99,0099,丰田_Mirai,Toyota_Mirai,轿车
+100,0100,金杯_金杯海狮王,Jinbei_Sealion King,轻客
+101,0101,宝马_宝马i3,BMW_BMW i3,轿车
+102,0102,宝马_宝马i7,BMW_i7,轿车
+103,0103,大众_途观L PHEV,Volkswagen_Tiguan L PHEV,SUV
+104,0104,奔驰_奔驰E级AMG,Mercedes-Benz_E-Class AMG,轿车
+105,0105,捷达_捷达VS5,Jetta_Jetta VS5,SUV
+106,0106,五十铃_TAGA达咖,Isuzu_TAGA Dacar,卡车
+107,0107,名爵_MG5天蝎座,MG_MG5 Scorpio,轿车
+108,0108,福特_新世代全顺,Ford_New Generation Transit,轻客
+109,0109,奔驰_威霆,Mercedes-Benz_Mercedes-Benz Vito,MPV
+110,0110,奥迪_奥迪A3,Audi_Audi A3,轿车
+111,0111,比亚迪_驱逐舰 05,BYD_Destroyer 05,轿车
+112,0112,阿斯顿·马丁_阿斯顿·马丁DBX,Aston Martin_DBX,SUV
+113,0113,哈弗_哈弗二代大狗,Haval_Haval Big Dog 2nd Gen,SUV
+114,0114,丰田_卡罗拉双擎E+,Toyota_Corolla Twin E+,轿车
+115,0115,丰田_奕泽E进擎,Toyota_C-HR,SUV
+116,0116,奇瑞_艾瑞泽5,Chery_Arrizo 5,轿车
+117,0117,五菱汽车_五菱荣光小卡EV,Wuling Motors_Wuling Rongguang Mini Truck EV,卡车
+118,0118,特斯拉_Cybertruck,Tesla_Cybertruck,卡车
+119,0119,凯迪拉克_凯迪拉克XT6,Cadillac_Cadillac XT6,SUV
+120,0120,宝马_宝马X5,BMW_BMW X5,SUV
+121,0121,福田_图雅诺智蓝 EV,Foton_Toyano Zhilan EV,轻客
+122,0122,比亚迪_海豹,BYD_Seal,轿车
+123,0123,名爵_MG6,MG_MG6,轿车
+124,0124,本田_本田HR-V,Honda_HR-V,SUV
+125,0125,吉利银河_银河L7,Geely Galaxy_Galaxy L7,SUV
+126,0126,捷豹_捷豹F-TYPE,Jaguar_Jaguar F-TYPE,跑车
+127,0127,东风小康_东风小康K02,Dongfeng Xiaokang_Dongfeng Xiaokang K02,卡车
+128,0128,思皓_花仙子,Sihao_Flower Fairy,轿车
+129,0129,保时捷_保时捷911,Porsche_Porsche 911,跑车
+130,0130,长安跨越_跨越星V5,Changan Kuayue_Kuayue Star V5,微面
+131,0131,沃尔沃_沃尔沃S60 RECHARGE,Volvo_S60 Recharge,轿车
+132,0132,长安_长安UNI-K,Changan_Changan UNI-K,SUV
+133,0133,东风风神_皓极,Dongfeng Fengshen_Aeolus Haoji,SUV
+134,0134,埃安_AION S,GAC Aion_AION S,轿车
+135,0135,奔腾_奔腾T90,Besturn_T90,SUV
+136,0136,别克_昂科威,Buick_Envision,SUV
+137,0137,凯迪拉克_凯迪拉克CT6,Cadillac_Cadillac CT6,轿车
+138,0138,荣威_荣威RX5,Roewe_Roewe RX5,SUV
+139,0139,奔驰_奔驰A级,Mercedes-Benz_Mercedes-Benz A-Class,轿车
+140,0140,雪佛兰_开拓者,Chevrolet_Trailblazer,SUV
+141,0141,江淮瑞风_瑞风M3,JAC Refine_Refine M3,MPV
+142,0142,福特_全顺,Ford_Transit,轻客
+143,0143,阿尔法·罗密欧_ALFA 4C,Alfa Romeo_4C,跑车
+144,0144,江南汽车_江南U2,Jiangnan Auto_Jiangnan U2,SUV
+145,0145,海马_海马7X-E,Haima_7X-E,MPV
+146,0146,奔驰_奔驰GLA AMG,Mercedes-Benz_GLA AMG,SUV
+147,0147,摩根_摩根Plus 4,Morgan_Plus Four,跑车
+148,0148,哪吒汽车_哪吒AYA,Nezha Auto_Nezha AYA,SUV
+149,0149,路特斯_Emira,Lotus_Emira,跑车
+150,0150,高合_高合HiPhi Y,HiPhi_HiPhi Y,SUV
+151,0151,理念_广汽本田VE-1,Everus_VE-1,SUV
+152,0152,奔驰_奔驰EQE SUV,Mercedes-Benz_EQE SUV,SUV
+153,0153,长安凯程_神骐T30,Changan Kaicheng_Shenqi T30,卡车
+154,0154,丰田_丰田86,Toyota_Toyota 86,跑车
+155,0155,丰田_威兰达高性能版,Toyota_Venza,SUV
+156,0156,金杯_金卡S3,Jinbei_Gold Card S3,卡车
+157,0157,星途_星途揽月,Exeed_Exeed Luny,SUV
+158,0158,北汽昌河_北汽EV5,BAIC Changhe_EV5,微面
+159,0159,奔驰_奔驰S级,Mercedes-Benz_Mercedes-Benz S-Class,轿车
+160,0160,五菱汽车_五菱宏光MINIEV,Wuling Motors_Wuling Hongguang MINIEV,轿车
+161,0161,本田_缤智,Honda_HR-V,SUV
+162,0162,东风小康_东风小康C31,Dongfeng Xiaokang_Dongfeng Xiaokang C31,卡车
+163,0163,东风纳米_东风纳米EX1,Dongfeng Nano_Dongfeng Nano EX1,SUV
+164,0164,奔驰_迈巴赫S级,Mercedes-Benz_Maybach S-Class,轿车
+165,0165,东风小康_东风小康EC36,Dongfeng Xiaokang_EC36,微面
+166,0166,魏牌_高山,Wei Brand_Gaoshan,MPV
+167,0167,雪铁龙_雪铁龙C6,Citroën_C6,轿车
+168,0168,领克_领克06,Lynk & Co_Lynk & Co 06,SUV
+169,0169,福特_EVOS,Ford_EVOS,SUV
+170,0170,奔驰_奔驰S级PHEV,Mercedes-Benz_S-Class PHEV,轿车
+171,0171,比亚迪_元Pro,BYD_Yuan Pro,SUV
+172,0172,比亚迪_比亚迪e2,BYD_e2,轿车
+173,0173,英菲尼迪_英菲尼迪Q50L,Infiniti_Q50L,轿车
+174,0174,smart_smart EQ forfour,smart_EQ forfour,轿车
+175,0175,奔驰_奔驰E级PHEV,Mercedes-Benz_E-Class PHEV,轿车
+176,0176,哈弗_哈弗酷狗,Haval_Haval Cool Dog,SUV
+177,0177,东风_锐骐,Dongfeng_Rich,卡车
+178,0178,丰田_柯斯达,Toyota_Coaster,轻客
+179,0179,众泰_众泰T300,Zotye_T300,SUV
+180,0180,北京_北京BJ60,BAIC_BJ60,SUV
+181,0181,Jeep_牧马人4xe PHEV,Jeep_Wrangler 4xe PHEV,SUV
+182,0182,奔驰_迈巴赫GLS,Mercedes-Benz_Maybach GLS,SUV
+183,0183,保时捷_保时捷718,Porsche_Porsche 718,跑车
+184,0184,小鹏汽车_小鹏G9,Xpeng_Xpeng G9,SUV
+185,0185,红旗_红旗H5,Hongqi_Hongqi H5,轿车
+186,0186,本田_雅阁 PHEV,Honda_Accord PHEV,轿车
+187,0187,东风风光_风光E380,Dongfeng Fengguang_E380,MPV
+188,0188,阿斯顿·马丁_阿斯顿·马丁DB11,Aston Martin_Aston Martin DB11,跑车
+189,0189,smart_smart精灵#1,smart_smart #1,SUV
+190,0190,奇瑞_瑞虎8 PRO,Chery_Tiggo 8 PRO,SUV
+191,0191,起亚_赛图斯,Kia_Cerato,SUV
+192,0192,比亚迪_唐DM,BYD_Tang DM,SUV
+193,0193,长安_长安CS35 PLUS,Changan_Changan CS35 PLUS,SUV
+194,0194,红旗_红旗E-HS9,Hongqi_Hongqi E-HS9,SUV
+195,0195,启辰_启辰D60,Venucia_D60,轿车
+196,0196,五菱汽车_五菱星驰,Wuling Motors_Wuling Xingchi,SUV
+197,0197,别克_世纪,Buick_Century,MPV
+198,0198,江汽集团_星锐,JMC_Transit,轻客
+199,0199,东风风行_菱智PLUS,Dongfeng Fengxing_Lingzhi PLUS,MPV
+200,0200,宝马_宝马X6,BMW_X6,SUV
+201,0201,广汽传祺_传祺M8,GAC Trumpchi_Trumpchi M8,MPV
+202,0202,荣威_荣威iMAX8,Roewe_Roewe iMAX8,MPV
+203,0203,名爵_MG7,MG_MG7,轿车
+204,0204,瑞驰_瑞驰EC35,Riich_EC35,微面
+205,0205,星途_星途追风 PHEV,Exeed_TxL PHEV,SUV
+206,0206,兰博基尼_Revuelto,Lamborghini_Revuelto,跑车
+207,0207,启辰_启辰D60 EV,Venucia_D60 EV,轿车
+208,0208,本田_皓影 PHEV,Honda_HR-V PHEV,SUV
+209,0209,福田_祥菱V,Foton_Xiangling V,卡车
+210,0210,长安凯程_欧诺S,Changan Kaicheng_Ouno S,微面
+211,0211,名爵_MG5,MG_MG5,轿车
+212,0212,五菱汽车_五菱宏光,Wuling Motors_Wuling Hongguang,微面
+213,0213,丰田_雷凌,Toyota_Levin,轿车
+214,0214,福田_祥菱M,Foton_Xiangling M,卡车
+215,0215,福特_福特电马,Ford_Mustang Mach-E,SUV
+216,0216,广汽传祺_传祺GS4 PLUS,GAC Trumpchi_GS4 PLUS,SUV
+217,0217,岚图_岚图梦想家 PHEV,Lantu_Lantu Dreamer PHEV,MPV
+218,0218,长安_长安UNI-T,Changan_Changan UNI-T,SUV
+219,0219,奥迪_奥迪S8,Audi_S8,轿车
+220,0220,东风_御风EM26,Dongfeng_Yufeng EM26,微面
+221,0221,红旗_红旗LS7,Hongqi_Hongqi LS7,SUV
+222,0222,宝马_宝马X7,BMW_BMW X7,SUV
+223,0223,东风风行_风行游艇,Dongfeng Fengxing_Yacht,MPV
+224,0224,江铃_域虎9,JMC_Yuhu 9,卡车
+225,0225,兰博基尼_Urus,Lamborghini_Urus,SUV
+226,0226,福田_风景智蓝G7 EV,Foton_View Zhilan G7 EV,轻客
+227,0227,腾势_腾势N7,Denza_N7,SUV
+228,0228,领克_领克05,Lynk & Co_Lynk & Co 05,SUV
+229,0229,丰田_皇冠,Toyota_Crown,轿车
+230,0230,林肯_航海家,Lincoln_Navigator,SUV
+231,0231,荣威_荣威i5,Roewe_Roewe i5,轿车
+232,0232,五菱汽车_五菱星辰,Wuling Motors_Wuling Xingchen,SUV
+233,0233,斯柯达_速派,Škoda_Superb,轿车
+234,0234,蔚来_蔚来ES7,NIO_ES7,SUV
+235,0235,东风_锐骐7,Dongfeng_Rich 7,卡车
+236,0236,英菲尼迪_英菲尼迪QX60,Infiniti_QX60,SUV
+237,0237,本田_N BOX,Honda_N BOX,轿车
+238,0238,北京汽车_魔方,BAIC_Magic Box,SUV
+239,0239,大众_探岳,Volkswagen_Teramont,SUV
+240,0240,东风_御风,Dongfeng_Yufeng,轻客
+241,0241,五十铃_庆铃五十铃T17,Isuzu_Qingling Isuzu T17,卡车
+242,0242,丰田_RAV4荣放双擎E+,Toyota_RAV4 Prime,SUV
+243,0243,吉利几何_吉利几何M6,Geely Geometry_Geely Geometry M6,SUV
+244,0244,特斯拉_Roadster,Tesla_Roadster,跑车
+245,0245,长城_山海炮,Great Wall_Mountain and Sea Cannon,卡车
+246,0246,福特_领界,Ford_Territory,SUV
+247,0247,丰田_一汽丰田bZ4X,Toyota_bZ4X,SUV
+248,0248,极氪_ZEEKR 009,Zeekr_Zeekr 009,MPV
+249,0249,大众_威然,Volkswagen_Viloran,MPV
+250,0250,中国重汽VGV_VGV U75,China National Heavy Duty Truck Group VGV_U75,SUV
+251,0251,别克_昂科旗,Buick_Enclave,SUV
+252,0252,北汽制造_勇士,BAIC_Warrior,SUV
+253,0253,长安凯程_睿行EM60,Changan Kaicheng_Ruixing EM60,微面
+254,0254,长安凯程_长安星卡PLUS,Changan Kaicheng_Changan Star Truck PLUS,卡车
+255,0255,启辰_启辰T60 EV,Venucia_T60 EV,SUV
+256,0256,沃尔沃_沃尔沃V60,Volvo_V60,轿车
+257,0257,东风纳米_纳米BOX,Dongfeng Nano_Nano BOX,SUV
+258,0258,容大智造_迈图,Rongda Intelligent_Manito,卡车
+259,0259,宝骏_宝骏KiWi EV,Baojun_Baojun KiWi EV,轿车
+260,0260,雷克萨斯_雷克萨斯LM,Lexus_Lexus LM,MPV
+261,0261,哈弗_哈弗H5,Haval_Haval H5,SUV
+262,0262,荣威_荣威Ei5,Roewe_Ei5,轿车
+263,0263,理想汽车_理想L9,Li Auto_Li L9,SUV
+264,0264,MINI_MINI,MINI_MINI,轿车
+265,0265,五菱汽车_五菱荣光EV,Wuling Motors_Wuling Rongguang EV,微面
+266,0266,奥迪_奥迪Q7,Audi_Audi Q7,SUV
+267,0267,大众_辉昂,Volkswagen_Phauson,轿车
+268,0268,大众_ID.6 X,Volkswagen_ID.6 X,SUV
+269,0269,东风小康_东风小康C36,Dongfeng Xiaokang_C36,微面
+270,0270,长安_长安CS75 PLUS 智电iDD,Changan_CS75 PLUS iDD,SUV
+271,0271,奇瑞_欧萌达,Chery_Omoda,SUV
+272,0272,长安_长安CS75 PLUS,Changan_Changan CS75 PLUS,SUV
+273,0273,长安凯程_长安之星9,Changan Kaicheng_Changan Star 9,微面
+274,0274,北京汽车_北京EX3,BAIC_Beijing EX3,SUV
+275,0275,MINI_MINI COUNTRYMAN,MINI_COUNTRYMAN,SUV
+276,0276,哈弗_哈弗M6,Haval_Haval M6,SUV
+277,0277,领克_领克07 EM-P,Lynk & Co_07 EM-P,轿车
+278,0278,大众_探岳X,Volkswagen_Tayron X,SUV
+279,0279,本田_本田LIFE,Honda_Honda LIFE,轿车
+280,0280,远程汽车_远程星享V,Farizon Auto_Farizon Star V,微面
+281,0281,宝马_宝马1系,BMW_BMW 1 Series,轿车
+282,0282,奔驰_奔驰EQE,Mercedes-Benz_Mercedes-Benz EQE,轿车
+283,0283,奇瑞_艾瑞泽5 PLUS,Chery_Arrizo 5 PLUS,轿车
+284,0284,宝马_宝马X4 M,BMW_BMW X4 M,SUV
+285,0285,东风小康_东风小康K01,Dongfeng Xiaokang_Dongfeng Xiaokang K01,卡车
+286,0286,奥迪_奥迪S7,Audi_S7,轿车
+287,0287,奇瑞_瑞虎3x,Chery_Tiggo 3x,SUV
+288,0288,红旗_红旗E-HS3,Hongqi_E-HS3,SUV
+289,0289,丰田_威飒,Toyota_Venza,SUV
+290,0290,奥迪_奥迪RS 5,Audi_RS 5,轿车
+291,0291,雷克萨斯_雷克萨斯ES,Lexus_Lexus ES,轿车
+292,0292,开瑞_江豚,Karry_Jiangtun,微面
+293,0293,江汽集团_江淮T6,JAC Motors_JAC T6,卡车
+294,0294,长安欧尚_长安欧尚Z6 iDD新能源,Changan Oushang_Changan Oushang Z6 iDD New Energy,SUV
+295,0295,腾势_腾势D9 DM-i,Denza_Denza D9 DM-i,MPV
+296,0296,捷途_捷途X70,Jetour_Jetour X70,SUV
+297,0297,北汽雷驰_MINI卡,BAIC Reech_MINI Truck,卡车
+298,0298,特斯拉_Model X,Tesla_Model X,SUV
+299,0299,本田_本田CR-V PHEV,Honda_CR-V PHEV,SUV
+300,0300,红旗_红旗HQ9,Hongqi_Hongqi HQ9,MPV
+301,0301,东风_猛士MS600,Dongfeng_Mengshi MS600,卡车
+302,0302,吉利汽车_远景X6,Geely_Vision X6,SUV
+303,0303,大众_桑塔纳,Volkswagen_Santana,轿车
+304,0304,宝马_宝马X4,BMW_BMW X4,SUV
+305,0305,英菲尼迪_英菲尼迪QX50,Infiniti_QX50,SUV
+306,0306,大众_Arteon,Volkswagen_Arteon,轿车
+307,0307,红旗_红旗H9,Hongqi_Hongqi H9,轿车
+308,0308,现代_胜达,Hyundai_Santa Fe,SUV
+309,0309,大众_途昂,Volkswagen_Teramont,SUV
+310,0310,长安_逸动,Changan_Eado,轿车
+311,0311,长安跨越_跨越王X1 EV,Changan Kuayue_Kuayue King X1 EV,卡车
+312,0312,大众_大众ID.3,Volkswagen_Volkswagen ID.3,轿车
+313,0313,DS_DS 9 PHEV,DS_9 PHEV,轿车
+314,0314,百智新能源_百智大熊,Baizhi New Energy_Baizhi Big Bear,轿车
+315,0315,大众_途安L,Volkswagen_Touran L,MPV
+316,0316,奇瑞_瑞虎9,Chery_Tiggo 9,SUV
+317,0317,奔驰_AMG GT,Mercedes-Benz_AMG GT,跑车
+318,0318,特斯拉_Model Y,Tesla_Model Y,SUV
+319,0319,东南_东南DX5,Soueast_DX5,SUV
+320,0320,凯翼_炫界,Karry_Xuanjie,SUV
+321,0321,长安_逸动DT,Changan_Eado DT,轿车
+322,0322,比亚迪_秦EV,BYD_Qin EV,轿车
+323,0323,金杯_新海狮X30L,Jinbei_New Sealion X30L,微面
+324,0324,长安凯程_神骐T20,Changan Kaicheng_Shenqi T20,卡车
+325,0325,奥迪_奥迪R8,Audi_Audi R8,跑车
+326,0326,奔驰_奔驰GLC轿跑 AMG,Mercedes-Benz_Mercedes-Benz GLC Coupe AMG,SUV
+327,0327,奔驰_奔驰C级PHEV,Mercedes-Benz_C-Class PHEV,轿车
+328,0328,起亚_奕跑,Kia_KX Cross,SUV
+329,0329,奥迪_奥迪A7,Audi_Audi A7,轿车
+330,0330,东风小康_东风小康C72,Dongfeng Xiaokang_Dongfeng Xiaokang C72,卡车
+331,0331,本田_ZR-V 致在,Honda_ZR-V,SUV
+332,0332,奥迪_奥迪RS e-tron GT,Audi_RS e-tron GT,轿车
+333,0333,标致_标致2008,Peugeot_Peugeot 2008,SUV
+334,0334,沃尔沃_沃尔沃XC90,Volvo_Volvo XC90,SUV
+335,0335,奔驰_奔驰GLB AMG,Mercedes-Benz_GLB AMG,SUV
+336,0336,奔腾_奔腾T77,Besturn_T77,SUV
+337,0337,捷途_捷途X90 PLUS,Jetour_Jetour X90 PLUS,SUV
+338,0338,沃尔沃_沃尔沃V90,Volvo_V90,轿车
+339,0339,北汽制造_元宝,BAIC Manufacturing_Yuanbao,轿车
+340,0340,奥迪_奥迪Q6,Audi_Audi Q6,SUV
+341,0341,奥迪_奥迪RS 7,Audi_Audi RS 7,轿车
+342,0342,长安_长安CS15,Changan_Changan CS15,SUV
+343,0343,东风风神_东风风神AX7,Dongfeng Fengshen_AX7,SUV
+344,0344,奥迪_奥迪A4 International Version,Audi_A4 International Version,轿车
+345,0345,华晨新日_华晨新日i03,Brilliance Xinday_New Day i03,轿车
+346,0346,五菱汽车_五菱荣光小卡,Wuling Motors_Wuling Rongguang Mini Truck,卡车
+347,0347,方程豹_豹5,Equation Leopard_Leopard 5,SUV
+348,0348,名爵_MG领航,MG_Pilot,SUV
+349,0349,本田_奥德赛,Honda_Odyssey,MPV
+350,0350,宝马_宝马2系,BMW_BMW 2 Series,轿车
+351,0351,菲亚特_菲亚特500e,Fiat_500e,轿车
+352,0352,东风风光_风光580,Dongfeng Fengguang_580,SUV
+353,0353,迈凯伦_迈凯伦675LT,McLaren_675LT,跑车
+354,0354,奔驰_奔驰CLA AMG,Mercedes-Benz_CLA AMG,轿车
+355,0355,起亚_傲跑,Kia_Seltos,SUV
+356,0356,奇瑞_瑞虎5x,Chery_Tiggo 5x,SUV
+357,0357,东风小康_东风小康C32,Dongfeng Xiaokang_Dongfeng Xiaokang C32,卡车
+358,0358,长安_长安CS55 PLUS,Changan_Changan CS55 PLUS,SUV
+359,0359,高合_高合HiPhi Z,HiPhi_HiPhi Z,轿车
+360,0360,宝马_宝马7系,BMW_BMW 7 Series,轿车
+361,0361,长城_风骏EV,Great Wall_Wingle EV,卡车
+362,0362,奔驰_奔驰A级AMG,Mercedes-Benz_Mercedes-Benz A-Class AMG,轿车
+363,0363,比亚迪_宋Pro DM-i,BYD_Song Pro DM-i,SUV
+364,0364,名爵_MG4 EV,MG_MG4 EV,轿车
+365,0365,开瑞_海豚EV,Karry_Dolphin EV,微面
+366,0366,魏牌_拿铁DHT,Wei Brand_Latte DHT,SUV
+367,0367,本田_思域,Honda_Civic,轿车
+368,0368,日产_骐达TIIDA,Nissan_Tiida,轿车
+369,0369,捷尼赛思_捷尼赛思GV70,Genesis_GV70,SUV
+370,0370,宝马_宝马iX3,BMW_BMW iX3,SUV
+371,0371,五菱汽车_凯捷Victory,Wuling Motors_Kaijie Victory,MPV
+372,0372,岚图_岚图追光,Lantu_Chase Light,轿车
+373,0373,未奥汽车_未奥BOMA,Weiao_BOMA,轿车
+374,0374,长安_长安UNI-V,Changan_Changan UNI-V,轿车
+375,0375,零跑汽车_零跑C01,Leapmotor_Leapmotor C01,轿车
+376,0376,标致_标致508L,Peugeot_508L,轿车
+377,0377,雪铁龙_天逸 C5 AIRCROSS,Citroën_C5 Aircross,SUV
+378,0378,现代_菲斯塔,Hyundai_Fiesta,轿车
+379,0379,本田_本田UR-V,Honda_Honda UR-V,SUV
+380,0380,大众_探影,Volkswagen_Taos,SUV
+381,0381,雪铁龙_凡尔赛C5 X,Citroën_C5 X,轿车
+382,0382,丰田_威尔法,Toyota_Alphard,MPV
+383,0383,福田_风景G5,Foton_View G5,轻客
+384,0384,东风风行_风行T5,Dongfeng Fengxing_T5,SUV
+385,0385,五十铃_D-MAX,Isuzu_D-MAX,卡车
+386,0386,奔腾_奔腾B70S,Besturn_B70S,SUV
+387,0387,日产_Note EV,Nissan_Note EV,轿车
+388,0388,大力牛魔王_大力牛魔王D01,Dali Niu Mowang_Dali Niu Mowang D01,卡车
+389,0389,比亚迪_秦PLUS DM-i,BYD_Qin PLUS DM-i,轿车
+390,0390,沃尔沃_沃尔沃XC60,Volvo_Volvo XC60,SUV
+391,0391,合创汽车_合创A06,Hycan_A06,轿车
+392,0392,奔驰_奔驰GLS AMG,Mercedes-Benz_GLS AMG,SUV
+393,0393,大众_速腾,Volkswagen_Jetta,轿车
+394,0394,本田_皓影,Honda_HR-V,SUV
+395,0395,五菱汽车_五菱荣光新卡专用车,Wuling Motors_Wuling Rongguang New Truck Special Purpose Vehicle,卡车
+396,0396,宝马_宝马XM,BMW_XM,SUV
+397,0397,长安_长安CS95,Changan_CS95,SUV
+398,0398,本田_飞度,Honda_Fit,轿车
+399,0399,荣威_荣威eRX5,Roewe_eRX5,SUV
+400,0400,奥迪_奥迪S4,Audi_S4,轿车
+401,0401,长安_长安UNI-K 智电iDD,Changan_UNI-K iDD,SUV
+402,0402,别克_微蓝6,Buick_Velite 6,轿车
+403,0403,钧天汽车_钧天黑武士Youth,Juntian_Auto Black Warrior Youth,MPV
+404,0404,宝马_宝马X1,BMW_BMW X1,SUV
+405,0405,五菱汽车_五菱荣光新卡,Wuling Motors_Wuling Rongguang New Truck,卡车
+406,0406,福田_图雅诺大麦,Foton_Toyano Daimai,轻客
+407,0407,马自达_马自达CX-8,Mazda_CX-8,SUV
+408,0408,凯迪拉克_IQ锐歌,Cadillac_Cadillac Lyriq,SUV
+409,0409,长安_锐程CC,Changan_Raeton CC,轿车
+410,0410,凌宝汽车_凌宝COCO,Lingbao Auto_Lingbao COCO,轿车
+411,0411,本田_型格,Honda_Honda Envix,轿车
+412,0412,朋克汽车_朋克多多,Punk_Duoduo,轿车
+413,0413,本田_本田e,Honda_Honda e,轿车
+414,0414,斯柯达_柯米克GT,Škoda_Kamiq GT,SUV
+415,0415,路虎_揽胜极光,Land Rover_Range Rover Evoque,SUV
+416,0416,大运_悦虎,Dayun_Yuehu,SUV
+417,0417,北京_北京BJ90,BAIC_BJ90,SUV
+418,0418,大众_途岳,Volkswagen_Teramont,SUV
+419,0419,奔腾_奔腾B70,Besturn_B70,轿车
+420,0420,大众_宝来,Volkswagen_Bora,轿车
+421,0421,凌宝汽车_凌宝BOX,Lingbao Auto_Lingbao BOX,轿车
+422,0422,宾利_添越,Bentley_Bentayga,SUV
+423,0423,道奇_RAM Trucks,Dodge_RAM Trucks,卡车
+424,0424,宝马_宝马X3 M,BMW_BMW X3 M,SUV
+425,0425,丰田_威兰达,Toyota_Venza,SUV
+426,0426,福特_福特GT,Ford_Ford GT,跑车
+427,0427,云度_云度π1,Yudo_π1,SUV
+428,0428,零跑汽车_零跑T03,Leapmotor_Leapmotor T03,轿车
+429,0429,雷克萨斯_雷克萨斯LX,Lexus_Lexus LX,SUV
+430,0430,奔驰_迈巴赫S级 PHEV,Mercedes-Maybach_S-Class PHEV,轿车
+431,0431,橙仕_橙仕01,Chengshi_Chengshi 01,微面
+432,0432,奔驰_奔驰GLE,Mercedes-Benz_Mercedes-Benz GLE,SUV
+433,0433,福田_图雅诺,Foton_Tunland,轻客
+434,0434,斯柯达_柯珞克,Škoda_Karoq,SUV
+435,0435,博速_博速 A级,Bospeed_A-Class,轿车
+436,0436,广汽传祺_传祺M6,GAC Trumpchi_Trumpchi M6,MPV
+437,0437,比亚迪_比亚迪D1,BYD_BYD D1,MPV
+438,0438,五菱汽车_五菱荣光V,Wuling Motors_Wuling Rongguang V,微面
+439,0439,斯巴鲁_CROSSTREK旭豹,Subaru_Crosstrek,SUV
+440,0440,奔驰_奔驰B级,Mercedes-Benz_B-Class,轿车
+441,0441,宝马_宝马M3,BMW_M3,轿车
+442,0442,蔚来_蔚来ET7,NIO_ET7,轿车
+443,0443,奔驰_奔驰EQB,Mercedes-Benz_EQB,SUV
+444,0444,奥迪_奥迪RS Q8,Audi_RS Q8,SUV
+445,0445,奔驰_奔驰CLA,Mercedes-Benz_Mercedes-Benz CLA,轿车
+446,0446,北京_北京BJ30,BAIC_BJ30,SUV
+447,0447,哈弗_哈弗枭龙,Haval_Jolion,SUV
+448,0448,凯迪拉克_凯迪拉克XT4,Cadillac_Cadillac XT4,SUV
+449,0449,奔驰_奔驰SL级AMG,Mercedes-Benz_Mercedes-Benz SL-Class AMG,跑车
+450,0450,吉利汽车_星越L 增程电动版,Geely_Star L ER-EV,SUV
+451,0451,奥迪_奥迪A5,Audi_Audi A5,轿车
+452,0452,智己汽车_智己LS7,Zhiji Auto_Zhiji LS7,SUV
+453,0453,猛士_猛士917,Mengshi_917,SUV
+454,0454,奇瑞_瑞虎8,Chery_Tiggo 8,SUV
+455,0455,东风小康_东风小康D72 PLUS,Dongfeng Xiaokang_Dongfeng Xiaokang D72 PLUS,卡车
+456,0456,奥迪_奥迪A8,Audi_Audi A8,轿车
+457,0457,奔腾_奔腾T55,Besturn_T55,SUV
+458,0458,别克_威朗,Buick_Verano,轿车
+459,0459,北汽瑞翔_北汽瑞翔M3,BAIC Ruixiang_BAIC Ruixiang M3,卡车
+460,0460,本田_英仕派 PHEV,Honda_Insight PHEV,轿车
+461,0461,吉利汽车_吉利ICON,Geely_Geely ICON,SUV
+462,0462,凯翼_轩度,Karry_KuanDu,轿车
+463,0463,哈弗_哈弗H6新能源,Haval_H6 New Energy,SUV
+464,0464,路虎_卫士,Land Rover_Defender,SUV
+465,0465,福特_Mustang,Ford_Mustang,跑车
+466,0466,长安凯程_长安凯程F300,Changan Kaicheng_Kaicheng F300,卡车
+467,0467,丰田_格瑞维亚,Toyota_Granvia,MPV
+468,0468,哈弗_哈弗H6,Haval_Haval H6,SUV
+469,0469,马自达_阿特兹,Mazda_Atenza,轿车
+470,0470,宾利_飞驰PHEV,Bentley_Flying Spur PHEV,轿车
+471,0471,长安_长安CS85 COUPE,Changan_CS85 COUPE,SUV
+472,0472,路虎_发现,Land Rover_Discovery,SUV
+473,0473,吉利汽车_博越,Geely_Bo Yue,SUV
+474,0474,丰田_皇冠陆放,Toyota_Crown Kluger,SUV
+475,0475,五十铃_铃拓,Isuzu_Lingtuo,卡车
+476,0476,雷克萨斯_雷克萨斯RX,Lexus_Lexus RX,SUV
+477,0477,哈弗_哈弗神兽,Haval_Divine Beast,SUV
+478,0478,江汽集团_悍途,JAC Motors_Hanttu,卡车
+479,0479,本田_英仕派,Honda_Inspire,轿车
+480,0480,宝马_宝马Z4,BMW_BMW Z4,跑车
+481,0481,本田_Freed,Honda_Freed,MPV
+482,0482,红旗_红旗HS7,Hongqi_Hongqi HS7,SUV
+483,0483,丰田_凯美瑞,Toyota_Camry,轿车
+484,0484,马自达_马自达CX-5,Mazda_Mazda CX-5,SUV
+485,0485,五菱汽车_五菱Nano EV,Wuling Motors_Wuling Nano EV,轿车
+486,0486,广汽传祺_传祺GS8,GAC Trumpchi_Trumpchi GS8,SUV
+487,0487,宝马_宝马8系,BMW_BMW 8 Series,轿车
+488,0488,中国重汽VGV_VGV U70Pro,China National Heavy Duty Truck Group VGV_VGV U70Pro,SUV
+489,0489,上汽大通MAXUS_上汽大通MAXUS T70,SAIC Maxus_SAIC Maxus T70,卡车
+490,0490,起亚_智跑,Kia_Sportage,SUV
+491,0491,启辰_启辰大V,Venucia_D V,SUV
+492,0492,捷豹_捷豹XFL,Jaguar_Jaguar XFL,轿车
+493,0493,斯柯达_柯迪亚克GT,Škoda_Kodiaq GT,SUV
+494,0494,哪吒汽车_哪吒X,Nezha_X,SUV
+495,0495,奔驰_奔驰GLE轿跑,Mercedes-Benz_GLE Coupe,SUV
+496,0496,依维柯_依维柯得意,Iveco_Daily,轻客
+497,0497,宾利_飞驰,Bentley_Flying Spur,轿车
+498,0498,阿尔法·罗密欧_Tonale托纳利,Alfa Romeo_Tonale,SUV
+499,0499,捷尼赛思_捷尼赛思GV80,Genesis_GV80,SUV
+500,0500,大众_T-ROC探歌,Volkswagen_T-ROC,SUV
+501,0501,中兴_小老虎,ZTE_Little Tiger,卡车
+502,0502,大众_ID.6 CROZZ,Volkswagen_ID.6 CROZZ,SUV
+503,0503,马自达_马自达CX-50行也,Mazda_Mazda CX-50,SUV
+504,0504,极氪_ZEEKR X,Zeekr_Zeekr X,SUV
+505,0505,东风风光_风光MINIEV,Dongfeng Fengguang_MINIEV,轿车
+506,0506,SRM鑫源_金海狮,SRM Xinyuan_Golden Sealion,MPV
+507,0507,领克_领克09 EM-P,Lynk & Co_Lynk & Co 09 EM-P,SUV
+508,0508,领克_领克02,Lynk & Co_02,SUV
+509,0509,日产_途达,Nissan_Terra,SUV
+510,0510,丰田_汉兰达,Toyota_Highlander,SUV
+511,0511,欧拉_欧拉好猫,Ora_Ora Good Cat,轿车
+512,0512,LUMMA_LUMMA CLR X7,LUMMA_CLR X7,SUV
+513,0513,大众_高尔夫,Volkswagen_Golf,轿车
+514,0514,长安跨越_跨越王X1,Changan Kuayue_Kuayue King X1,卡车
+515,0515,别克_昂科拉GX,Buick_Encore GX,SUV
+516,0516,红旗_红旗HS3,Hongqi_Hongqi HS3,SUV
+517,0517,现代_悦动,Hyundai_Yuedong,轿车
+518,0518,江铃_顺达,JMC_Shunda,卡车
+519,0519,别克_君威,Buick_Regal,轿车
+520,0520,零跑汽车_零跑C11,Leapmotor_Leapmotor C11,SUV
+521,0521,长安欧尚_奔奔E-Star,Changan Oushang_BenBen E-Star,轿车
+522,0522,大众_途昂X,Volkswagen_Touareg X,SUV
+523,0523,领克_领克06 EM-P,Lynk & Co_Lynk & Co 06 EM-P,SUV
+524,0524,坦克_坦克300,Tank_Tank 300,SUV
+525,0525,魏牌_拿铁DHT-PHEV,Wei Brand_Latte DHT-PHEV,SUV
+526,0526,路虎_发现运动版,Land Rover_Discovery Sport,SUV
+527,0527,宝骏_悦也,Baojun_Yueye,SUV
+528,0528,长安_逸达,Changan_Eado,轿车
+529,0529,依维柯_依维柯欧风,Iveco_Eurocargo,轻客
+530,0530,领克_领克05 EM-P,Lynk & Co_05 EM-P,SUV
+531,0531,宝马_宝马iX1,BMW_iX1,SUV
+532,0532,标致_标致508L PHEV,Peugeot_508L PHEV,轿车
+533,0533,本田_冠道,Honda_Avancier,SUV
+534,0534,长安_长安UNI-V 智电iDD,Changan_Changan UNI-V iDD,轿车
+535,0535,金杯_阁瑞斯,Jinbei_Geruisi,轻客
+536,0536,林肯_林肯Z,Lincoln_Lincoln Z,轿车
+537,0537,江铃_宝典,JMC_Baodian,卡车
+538,0538,奥迪_奥迪A4 China Domestic Version,Audi_Audi A4 China Domestic Version,轿车
+539,0539,大众_凌渡,Volkswagen_Lamando,轿车
+540,0540,名爵_MG ONE,MG_ONE,SUV
+541,0541,马自达_马自达3 昂克赛拉,Mazda_Mazda3 Axela,轿车
+542,0542,东风风神_奕炫,Dongfeng Fengshen_Aeolus Yixuan,轿车
+543,0543,本田_本田XR-V,Honda_Honda XR-V,SUV
+544,0544,DS_DS 9,DS_9,轿车
+545,0545,奥迪_奥迪Q2L,Audi_Audi Q2L,SUV
+546,0546,五菱汽车_五菱电卡,Wuling Motors_Wuling Electric Truck,卡车
+547,0547,广汽传祺_传祺E9 PHEV,GAC Trumpchi_Trumpchi E9 PHEV,MPV
+548,0548,凯翼_凯翼昆仑,Karry_Kunlun,SUV
+549,0549,保时捷_Cayenne,Porsche_Cayenne,SUV
+550,0550,长安凯程_神骐T10 EV,Changan Kaicheng_Shenqi T10 EV,卡车
+551,0551,路虎_揽胜,Land Rover_Range Rover,SUV
+552,0552,金龙_凯锐浩克,King Long_Kai Rui Hulk,轻客
+553,0553,长安凯程_长安神骐PLUS,Changan Kaicheng_Changan Shenqi PLUS,卡车
+554,0554,东风小康_东风小康K05S,Dongfeng Xiaokang_K05S,微面
+555,0555,哈弗_哈弗H9,Haval_Haval H9,SUV
+556,0556,江铃_福顺,Jiangling_Joyear,轻客
+557,0557,东风风光_风光380,Dongfeng Fengguang_Fengguang 380,微面
+558,0558,现代_现代ix35,Hyundai_ix35,SUV
+559,0559,北汽制造_家宝,BAIC Manufacturing_Jiabao,轿车
+560,0560,捷尼赛思_捷尼赛思G90,Genesis_G90,轿车
+561,0561,斯柯达_明锐,Škoda_Octavia,轿车
+562,0562,奔驰_奔驰EQS,Mercedes-Benz_EQS,轿车
+563,0563,东风风行_风行T5 EVO,Dongfeng Fengxing_T5 EVO,SUV
+564,0564,大众_途观L,Volkswagen_Tiguan L,SUV
+565,0565,江铃_特顺,Jiangling_Special Transit,轻客
+566,0566,别克_昂科拉Plus,Buick_Encore Plus,SUV
+567,0567,奥迪_奥迪Q8,Audi_Q8,SUV
+568,0568,吉利汽车_帝豪,Geely_Emgrand,轿车
+569,0569,现代_伊兰特,Hyundai_Elantra,轿车
+570,0570,五菱汽车_五菱荣光新卡EV,Wuling Motors_Wuling Rongguang New Truck EV,卡车
+571,0571,阿尔法·罗密欧_Stelvio斯坦维,Alfa Romeo_Stelvio,SUV
+572,0572,玛莎拉蒂_总裁,Maserati_Quattroporte,轿车
+573,0573,吉利几何_吉利几何G6,Geometry_G6,轿车
+574,0574,吉利银河_银河L6,Geely Galaxy_Galaxy L6,轿车
+575,0575,长安_长安CS75,Changan_Changan CS75,SUV
+576,0576,哈弗_哈弗赤兔,Haval_Haval Chitu,SUV
+577,0577,奥迪_奥迪e-tron GT,Audi_e-tron GT,轿车
+578,0578,蔚来_蔚来ET5,NIO_NIO ET5,轿车
+579,0579,福田_火星7,Foton_Mars 7,卡车
+580,0580,奔驰_奔驰G级AMG,Mercedes-Benz_G-Class AMG,SUV
+581,0581,中国重汽VGV_VGV U75PLUS,China National Heavy Duty Truck Group VGV_U75PLUS,SUV
+582,0582,宝马_宝马5系,BMW_BMW 5 Series,轿车
+583,0583,小鹏汽车_小鹏P7,Xpeng_Xpeng P7,轿车
+584,0584,五十铃_翼放ES7,Isuzu_V-Max ES7,卡车
+585,0585,松散机车_SS SUMMER,SS Motorcycles_SS SUMMER,MPV
+586,0586,劳斯莱斯_闪灵,Rolls-Royce_Wraith,跑车
+587,0587,奔驰_奔驰GLA,Mercedes-Benz_Mercedes-Benz GLA,SUV
+588,0588,合创汽车_合创V09,Hechuang Auto_Hechuang V09,MPV
+589,0589,别克_昂科拉,Buick_Encore,SUV
+590,0590,五菱汽车_五菱缤果,Wuling Motors_Wuling Bingo,轿车
+591,0591,现代_库斯途,Hyundai_Custo,MPV
+592,0592,坦克_坦克500 Hi4-T,Tank_Tank 500 Hi4-T,SUV
+593,0593,巴菲特_巴菲特S,Buffett_S,MPV
+594,0594,极越_极越01,Extreme K01,SUV
+595,0595,凯迪拉克_凯迪拉克XT5,Cadillac_Cadillac XT5,SUV
+596,0596,雪佛兰_雪佛兰畅巡,Chevrolet_Menlo,轿车
+597,0597,沃尔沃_沃尔沃XC60 RECHARGE,Volvo_XC60 Recharge,SUV
+598,0598,东风风行_风行雷霆,Dongfeng Fengxing_Thunder,SUV
+599,0599,别克_别克E4,Buick_E4,SUV
+600,0600,比亚迪_宋MAX DM-i,BYD_Song MAX DM-i,MPV
+601,0601,岚图_岚图FREE,Lantu_FREE,SUV
+602,0602,仰望_仰望U8,Yongwang_Yongwang U8,SUV
+603,0603,长安跨越_跨越星V3,Changan Kuayue_Kuayue Star V3,微面
+604,0604,Jeep_自由侠4xe,Jeep_Renegade 4xe,SUV
+605,0605,睿蓝汽车_枫叶80v,Riich_Maple 80v,MPV
+606,0606,比亚迪_元PLUS,BYD_Yuan PLUS,SUV
+607,0607,红旗_红旗E-QM5,Hongqi_Hongqi E-QM5,轿车
+608,0608,极氪_ZEEKR 001,Zeekr_Zeekr 001,轿车
+609,0609,宝马_宝马i4,BMW_i4,轿车
+610,0610,奔驰_奔驰EQC,Mercedes-Benz_EQC,SUV
+611,0611,沃尔沃_沃尔沃XC40,Volvo_Volvo XC40,SUV
+612,0612,保时捷_Panamera,Porsche_Panamera,轿车
+613,0613,宝马_宝马M8,BMW_M8,轿车
+614,0614,奥迪_奥迪Q5L,Audi_Audi Q5L,SUV
+615,0615,福特_锐际,Ford_Edge ST-Line,SUV
+616,0616,丰田_锋兰达,Toyota_Highlander,SUV
+617,0617,福特_锐界,Ford_Edge,SUV
+618,0618,长安凯程_长安之星5,Changan Kaicheng_Changan Star 5,微面
+619,0619,福特_撼路者,Ford_Bronco,SUV
+620,0620,深蓝汽车_深蓝S7,Deep Blue Auto_Deep Blue S7,SUV
+621,0621,北京汽车_北京X7,BAIC_X7,SUV
+622,0622,丰田_丰田C-HR,Toyota_Toyota C-HR,SUV
+623,0623,比亚迪_比亚迪e3,BYD_e3,轿车
+624,0624,思铭_东风本田M-NV,Ciimo_Dongfeng Honda M-NV,SUV
+625,0625,依维柯_依维柯聚星 EV,Iveco_Daily EV,轻客
+626,0626,smart_smart精灵#3,smart_forfour,SUV
+627,0627,雪佛兰_迈锐宝XL,Chevrolet_Malibu XL,轿车
+628,0628,金杯_金杯T3,Jinbei_Jinbei T3,卡车
+629,0629,博速_博速 Smart Fortwo,Bospeed_Smart Fortwo,轿车
+630,0630,中国重汽VGV_VGV VX7,China National Heavy Duty Truck Group VGV_VGV VX7,卡车
+631,0631,Polestar极星_Polestar 1,Polestar_Polestar 1,跑车
+632,0632,奥迪_奥迪A6 China Domestic Version,Audi_A6 China Domestic Version,轿车
+633,0633,雪佛兰_星迈罗,Chevrolet_Camaro,SUV
+634,0634,哈弗_哈弗H6S,Haval_H6S,SUV
+635,0635,长城_金刚炮,Great Wall_King Kong Cannon,卡车
+636,0636,长安欧尚_长安欧尚X7 PLUS,Changan Oushang_Changan Oushang X7 PLUS,SUV
+637,0637,广汽传祺_影酷,GAC Trumpchi_Yingku,SUV
+638,0638,日产_蓝鸟,Nissan_Bluebird,轿车
+639,0639,金杯_金杯海狮,Jinbei_Sealion,轻客
+640,0640,钧天汽车_勇猛者,Junten_Audacious,SUV
+641,0641,腾势_腾势D9 EV,Denza_Denza D9 EV,MPV
+642,0642,五菱汽车_五菱EV50,Wuling Motors_Wuling EV50,微面
+643,0643,奥迪_奥迪S5,Audi_S5,轿车
+644,0644,保时捷_Taycan,Porsche_Taycan,轿车
+645,0645,凯翼_凯翼X3,Karry_Karry X3,SUV
+646,0646,沃尔沃_沃尔沃XC90 RECHARGE,Volvo_XC90 Recharge,SUV
+647,0647,五菱汽车_五菱Air ev晴空,Wuling Motors_Wuling Air ev,轿车
+648,0648,雷克萨斯_雷克萨斯NX,Lexus_Lexus NX,SUV
+649,0649,奔驰_奔驰GLC轿跑,Mercedes-Benz_GLC Coupe,SUV
+650,0650,马自达_马自达CX-30 EV,Mazda_CX-30 EV,SUV
+651,0651,欧拉_欧拉好猫GT,Ora_Ora Good Cat GT,轿车
+652,0652,奔驰_奔驰GLB,Mercedes-Benz_Mercedes-Benz GLB,SUV
+653,0653,奥迪_奥迪Q4 e-tron,Audi_Audi Q4 e-tron,SUV
+654,0654,上汽大通MAXUS_上汽大通MAXUS T90,SAIC Maxus_SAIC Maxus T90,卡车
+655,0655,日产_纳瓦拉,Nissan_Navarra,卡车
+656,0656,荣威_荣威iMAX8 EV,Roewe_iMAX8 EV,MPV
+657,0657,北京_北京BJ40,Beijing Auto_Beijing BJ40,SUV
+658,0658,五十铃_mu-X牧游侠,Isuzu_mu-X,SUV
+659,0659,本田_凌派,Honda_Gienia,轿车
+660,0660,奇瑞_瑞虎7,Chery_Tiggo 7,SUV
+661,0661,吉利汽车_帝豪S,Geely_Emgrand S,SUV
+662,0662,林肯_冒险家,Lincoln_Corsair,SUV
+663,0663,福特_锐际PHEV,Ford_Escape PHEV,SUV
+664,0664,东风风光_风光500,Dongfeng Fengguang_500,SUV
+665,0665,本田_艾力绅,Honda_Odyssey,MPV
+666,0666,奥迪_奥迪S6,Audi_S6,轿车
+667,0667,雷克萨斯_雷克萨斯RZ,Lexus_Lexus RZ,SUV
+668,0668,法拉利_法拉利296,Ferrari_Ferrari 296,跑车
+669,0669,克蒂汽车_克蒂帝亚,Kreidler_Diavel,MPV
+670,0670,哪吒汽车_哪吒V,Nezha Auto_Nezha V,SUV
+671,0671,宝马_宝马M2,BMW_M2,轿车
+672,0672,大众_ID.4 CROZZ,Volkswagen_ID.4 CROZZ,SUV
+673,0673,雪铁龙_雪铁龙C3-XR,Citroën_C3-XR,SUV
+674,0674,标致_标致408,Peugeot_408,轿车
+675,0675,沙龙汽车_机甲龙,Saloon_Mecha Dragon,轿车
+676,0676,福特_蒙迪欧,Ford_Mondeo,轿车
+677,0677,东风风神_奕炫MAX,Dongfeng Fengshen_Yixuan MAX,轿车
+678,0678,大众_揽境,Volkswagen_Tiguan,SUV
+679,0679,玛莎拉蒂_Levante,Maserati_Levante,SUV
+680,0680,斯柯达_柯迪亚克,Škoda_Kodiaq,SUV
+681,0681,路虎_揽胜星脉,Land Rover_Range Rover Velar,SUV
+682,0682,本田_本田CR-V,Honda_CR-V,SUV
+683,0683,宝马_宝马X3,BMW_BMW X3,SUV
+684,0684,五菱汽车_五菱荣光,Wuling Motors_Wuling Rongguang,微面
+685,0685,东风风神_奕炫GS,Dongfeng Fengshen_Aeolus GS,SUV
+686,0686,中兴_中兴1949,ZTE_ZTE 1949,卡车
+687,0687,开云汽车_开云电皮卡,Kaiyun Motors_Kaiyun Electric Pickup,卡车
+688,0688,奔驰_奔驰C级,Mercedes-Benz_Mercedes-Benz C-Class,轿车
+689,0689,蔚来_蔚来ES6,NIO_NIO ES6,SUV
+690,0690,道奇_挑战者,Dodge_Challenger,跑车
+691,0691,昊铂_昊铂SSR,Hao Bo_Hao Bo SSR,跑车
+692,0692,金杯_小海狮X30,Jinbei_Minibus X30,微面
+693,0693,宾利_欧陆,Bentley_Continental,跑车
+694,0694,北汽昌河_北斗星X5,BAIC Changhe_Beidouxing X5,轿车
+695,0695,奇瑞新能源_QQ冰淇淋,Chery New Energy_QQ Ice Cream,轿车
+696,0696,别克_别克GL8,Buick_GL8,MPV
+697,0697,东风风行_菱智,Dongfeng Fengxing_Lingzhi,MPV
+698,0698,丰田_亚洲龙,Toyota_Avalon,轿车
+699,0699,大众_Polo,Volkswagen_Polo,轿车
+700,0700,克蒂汽车_克蒂巴赫,Kreidler_Bach,MPV
+701,0701,标致_标致5008,Peugeot_5008,SUV
+702,0702,MINI_MINI CLUBMAN,MINI_MINI CLUBMAN,轿车
+703,0703,比亚迪_比亚迪M3,BYD_M3,MPV
+704,0704,日产_日产GT-R,Nissan_Nissan GT-R,跑车
+705,0705,理想汽车_理想L8,Li Auto_Li L8,SUV
+706,0706,宝马_宝马X5 M,BMW_X5 M,SUV
+707,0707,埃安_AION LX,GAC Aion_AION LX,SUV
+708,0708,DS_DS 7,DS_7,SUV
+709,0709,奥迪_奥迪Q5L Sportback,Audi_Audi Q5L Sportback,SUV
+710,0710,橙仕_橙仕X2,Chengshi_Chengshi X2,卡车
+711,0711,金杯_新海狮S,Jinbei_New Sealion S,微面
+712,0712,奇瑞_瑞虎8 PRO PHEV,Chery_Tiggo 8 PRO PHEV,SUV
+713,0713,劳斯莱斯_古思特,Rolls-Royce_Ghost,轿车
+714,0714,DS_DS 3 EV,DS_DS 3 Crossback E-Tense,SUV
+715,0715,大众_途观X,Volkswagen_Tiguan X,SUV
+716,0716,比亚迪_海鸥,BYD_Seagull,轿车
+717,0717,名爵_MG ZS,MG_ZS,SUV
+718,0718,电动屋_YOUNG光小新,Dongdian Motor_YOUNG Guang Xiaoxin,轿车
+719,0719,上汽大通MAXUS_上汽大通MAXUS G10,SAIC Maxus_G10,MPV
+720,0720,劳斯莱斯_幻影,Rolls-Royce_Phantom,轿车
+721,0721,路虎_揽胜极光PHEV,Land Rover_Range Rover Evoque PHEV,SUV
+722,0722,本田_雅阁,Honda_Accord,轿车
+723,0723,红旗_红旗H7,Hongqi_H7,轿车
+724,0724,丰田_威驰FS,Toyota_Vios FS,轿车
+725,0725,三菱_欧蓝德,Mitsubishi_Outlander,SUV
+726,0726,奥迪_奥迪Q3 Sportback,Audi_Q3 Sportback,SUV
+727,0727,奔驰_奔驰E级,Mercedes-Benz_Mercedes-Benz E-Class,轿车
+728,0728,起亚_嘉华,Kia_Carnival,MPV
+729,0729,中兴_威虎,ZTE_Tiger,卡车
+730,0730,长城_炮EV,Great Wall_Pao EV,卡车
+731,0731,上汽大通MAXUS_上汽牛魔王,SAIC Maxus_SAIC Maxus Bull Demon King,卡车
+732,0732,捷尼赛思_捷尼赛思G80,Genesis_G80,轿车
+733,0733,江淮瑞风_瑞风E3,JAC_Refine E3,MPV
+734,0734,阿斯顿·马丁_Vanquish,Aston Martin_Vanquish,跑车
+735,0735,福特_途睿欧,Ford_Tourneo,MPV
+736,0736,海马_海马7X,Haima_7X,MPV
+737,0737,雷达汽车_雷达RD6,Radar Auto_Radar RD6,卡车
+738,0738,捷途_捷途X70 PLUS,Jetour_Jetour X70 PLUS,SUV
+739,0739,路虎_发现运动版PHEV,Land Rover_Discovery Sport PHEV,SUV
+740,0740,福田_风景G7,Foton_View G7,轻客
+741,0741,长城_风骏5,Great Wall_Wingle 5,卡车
+742,0742,雪佛兰_科鲁泽,Chevrolet_Cruze,轿车
+743,0743,哈弗_哈弗大狗,Haval_Haval Big Dog,SUV
+744,0744,红旗_红旗HS5,Hongqi_Hongqi HS5,SUV
+745,0745,玛莎拉蒂_Ghibli,Maserati_Ghibli,轿车
+746,0746,别克_君越,Buick_LaCrosse,轿车
+747,0747,东风风神_皓瀚,Dongfeng Fengshen_Haohan,SUV
+748,0748,标致_标致4008,Peugeot_4008,SUV
+749,0749,长安跨越_新豹T1,Changan Kuayue_New Leopard T1,卡车
+750,0750,起亚_起亚EV5,Kia_Kia EV5,SUV
+751,0751,荣威_CLEVER,Roewe_CLEVER,轿车
+752,0752,奇瑞_艾瑞泽5 GT,Chery_Arrizo 5 GT,轿车
+753,0753,东风_锐骐6,Dongfeng_Rich 6,卡车
+754,0754,创维汽车_创维HT-i,Skyworth_HT-i,SUV
+755,0755,埃安_AION V,GAC Aion_AION V,SUV
+756,0756,别克_别克E5,Buick_Buick E5,SUV
+757,0757,兰博基尼_Sián,Lamborghini_Sián,跑车
+758,0758,起亚_狮铂拓界,Kia_Seltos,SUV
+759,0759,奔驰_奔驰CLS,Mercedes-Benz_Mercedes-Benz CLS,轿车
+760,0760,广汽传祺_影豹,GAC Trumpchi_Shadow Leopard,轿车
+761,0761,北京_北京F40,Beijing Auto_Beijing F40,卡车
+762,0762,奥迪_奥迪Q3,Audi_Audi Q3,SUV
+763,0763,雪佛兰_探界者,Chevrolet_Equinox,SUV
+764,0764,北京汽车_北京X3,BAIC_X3,SUV
+765,0765,五十铃_翼放ES5,Isuzu_V-Max ES5,卡车
+766,0766,恒润汽车_小泰迪,Hengrun Automobile_Little Teddy,SUV
+767,0767,玛莎拉蒂_GranTurismo Folgore,Maserati_GranTurismo Folgore,跑车
+768,0768,福特_福克斯,Ford_Focus,轿车
+769,0769,长安欧尚_长安欧尚X5,Changan Oushang_Changan Oushang X5,SUV
+770,0770,宝马_宝马X6 M,BMW_X6 M,SUV
+771,0771,东风风行_风行M7,Dongfeng Fengxing_M7,MPV
+772,0772,坦克_坦克400 Hi4-T,Tank_Tank 400 Hi4-T,SUV
+773,0773,吉利汽车_嘉际,Geely_Jiaji,MPV
+774,0774,五十铃_翼放EC5,Isuzu_Wing Release EC5,卡车
+775,0775,北京汽车_北京EU5,BAIC_EU5,轿车
+776,0776,大众_迈腾GTE,Volkswagen_Passat GTE,轿车
+777,0777,阿斯顿·马丁_Cygnet,Aston Martin_Cygnet,轿车
+778,0778,保时捷_Cayenne E-Hybrid,Porsche_Cayenne E-Hybrid,SUV
+779,0779,菱势汽车_菱势黄金卡,Ling Shi Motors_Ling Shi Gold Truck,卡车
+780,0780,江铃集团新能源_小麒麟,Jiangling Motors New Energy_Little Kirin,轿车
+781,0781,日产_天籁,Nissan_Altima,轿车
+782,0782,理想汽车_理想L7,Li Auto_Li L7,SUV
+783,0783,铃木_吉姆尼,Suzuki_Jimny,SUV
+784,0784,马自达_马自达CX-30,Mazda_Mazda CX-30,SUV
+785,0785,宝骏_云朵,Baojun_U-Cloud,轿车
+786,0786,凯迪拉克_凯迪拉克CT5,Cadillac_Cadillac CT5,轿车
+787,0787,长安_长安F70,Changan_Changan F70,卡车
+788,0788,玛莎拉蒂_Grecale,Maserati_Grecale,SUV
+789,0789,五菱汽车_五菱宏光PLUS,Wuling Motors_Wuling Hongguang PLUS,MPV
+790,0790,起亚_起亚KX5,Kia_KX5,SUV
+791,0791,蔚来_蔚来ES8,NIO_NIO ES8,SUV
+792,0792,长安凯程_长安星卡C系,Changan Kaicheng_Changan Star Truck C Series,卡车
+793,0793,大众_途锐,Volkswagen_Touareg,SUV
+794,0794,Polestar极星_Polestar 2,Polestar_2,轿车
+795,0795,昊铂_昊铂GT,Hoplus_GT,轿车
+796,0796,奔驰_奔驰V级,Mercedes-Benz_Mercedes-Benz V-Class,MPV
+797,0797,吉利几何_吉利几何A,Geometry_A,轿车
+798,0798,长安凯程_长安之星9 EV,Changan Kaicheng_Changan Star 9 EV,微面
+799,0799,五菱汽车_五菱荣光小卡专用车,Wuling Motors_Wuling Rongguang Mini Truck Special Purpose Vehicle,卡车
+800,0800,哪吒汽车_哪吒S,Nezha Auto_Nezha S,轿车
+801,0801,荣威_荣威i6 MAX,Roewe_i6 MAX,轿车
+802,0802,起亚_起亚EV6,Kia_EV6,SUV
+803,0803,现代_途胜,Hyundai_Tucson,SUV
+804,0804,大众_途铠,Volkswagen_Taigun,SUV
+805,0805,比亚迪_唐EV,BYD_Tang EV,SUV
+806,0806,林肯_领航员,Lincoln_Navigator,SUV
+807,0807,奥迪_奥迪SQ5,Audi_SQ5,SUV
+808,0808,吉利汽车_缤瑞,Geely_Binrui,轿车
+809,0809,迈凯伦_迈凯伦Artura,McLaren_McLaren Artura,跑车
+810,0810,高合_高合HiPhi X,HiPhi_HiPhi X,SUV
+811,0811,东风风光_风光330,Dongfeng Fengguang_Fengguang 330,MPV
+812,0812,蔚来_蔚来ET5T,NIO_ET5T,轿车
+813,0813,睿蓝汽车_睿蓝X3 PRO,Riich_X3 PRO,SUV
+814,0814,领克_领克01 PHEV,Lynk & Co_01 PHEV,SUV
+815,0815,福特_全顺EV,Ford_Transit EV,轻客
+816,0816,江铃_域虎7,JMC_Yuhu 7,卡车
+817,0817,欧拉_欧拉芭蕾猫,Ora_Ballet Cat,轿车
+818,0818,飞凡汽车_飞凡R7,Feifan Auto_Feifan R7,SUV
+819,0819,吉利几何_帝豪EV,Geometry_Emgrand EV,轿车
+820,0820,沃尔沃_沃尔沃XC40 RECHARGE,Volvo_XC40 Recharge,SUV
+821,0821,福田_大将军G9,Foton_General G9,卡车
+822,0822,阿斯顿·马丁_阿斯顿·马丁DBS,Aston Martin_Aston Martin DBS,跑车
+823,0823,丰田_RAV4荣放,Toyota_RAV4,SUV
+824,0824,吉利几何_吉利几何E萤火虫,Geely Geometry_Geely Geometry E Firefly,SUV
+825,0825,东风_猛士M50,Dongfeng_Mengshi M50,卡车
+826,0826,大众_迈腾,Volkswagen_Magotan,轿车
+827,0827,特斯拉_Model S,Tesla_Model S,轿车
+828,0828,福特_领睿,Ford_Evolve,SUV
+829,0829,丰田_广汽丰田bZ4X,Toyota_bZ4X,SUV
+830,0830,小米汽车_小米SU7,Xiaomi_Xiaomi SU7,轿车
+831,0831,云度_云兔,Yudo_π3,SUV
+832,0832,标致_标致408X,Peugeot_408X,轿车
+833,0833,捷达_捷达VA3,Jetta_VA3,轿车
+834,0834,雷克萨斯_雷克萨斯LS,Lexus_Lexus LS,轿车
+835,0835,东南_东南DX3,Soueast_DX3,SUV
+836,0836,广汽传祺_传祺GA6,GAC Trumpchi_GA6,轿车
+837,0837,奔驰_奔驰C级AMG,Mercedes-Benz_C-Class AMG,轿车
+838,0838,捷途_捷途大圣,Jetour_Jetour Dasheng,SUV
+839,0839,凯迪拉克_凯迪拉克CT4,Cadillac_Cadillac CT4,轿车
+840,0840,兰博基尼_Huracán,Lamborghini_Huracán,跑车
+841,0841,阿维塔_阿维塔 11,Avatr_Avatr 11,SUV
+842,0842,北汽制造_勇士皮卡,BAIC Manufacturing_Warrior Pickup,卡车
+843,0843,科尼赛克_Gemera,Koenigsegg_Gemera,跑车
+844,0844,奇瑞_瑞虎8 PLUS,Chery_Tiggo 8 PLUS,SUV
+845,0845,合创汽车_合创Z03,Hycan_Z03,SUV
+846,0846,上汽大通MAXUS_上汽大通MAXUS EV30,SAIC Maxus_SAIC Maxus EV30,微面
+847,0847,大众_蔚揽,Volkswagen_Teramont,轿车
+848,0848,阿尔法·罗密欧_Giulia朱丽叶,Alfa Romeo_Giulia,轿车
+849,0849,小鹏汽车_小鹏P5,Xpeng_P5,轿车
+850,0850,北汽制造_王牌M7,BAIC Weiwang_M7,MPV
+851,0851,领克_领克09,Lynk & Co_Lynk & Co 09,SUV
+852,0852,阿斯顿·马丁_Vantage,Aston Martin_Vantage,跑车
+853,0853,小鹏汽车_小鹏G3,Xpeng_G3,SUV
+854,0854,劳斯莱斯_库里南,Rolls-Royce_Cullinan,SUV
+855,0855,广汽传祺_传祺GA8,GAC Trumpchi_GA8,轿车
+856,0856,路特斯_路特斯Eletre,Lotus_Eletre,SUV
+857,0857,雷克萨斯_雷克萨斯UX,Lexus_UX,SUV
+858,0858,蓝电_蓝电E5,Blue Electric_Blue Electric E5,SUV
+859,0859,五菱汽车_五菱佳辰,Wuling Motors_Wuling Jiachen,MPV
+860,0860,别克_昂扬,Buick_Envision Plus,SUV
+861,0861,坦克_坦克500,Tank_Tank 500,SUV
+862,0862,上汽大通MAXUS_上汽大通MAXUS EV90,SAIC Maxus_EV90,轻客
+863,0863,奇瑞_探索06,Chery_Tiggo 6,SUV
+864,0864,ARCFOX极狐_极狐 阿尔法S,ARCFOX_αS,轿车
+865,0865,日产_楼兰,Nissan_Murano,SUV
+866,0866,宝马_宝马iX,BMW_iX,SUV
+867,0867,江汽集团_江淮iEV7,JAC Motors_JAC iEV7,轿车
+868,0868,江淮汽车_江淮A5 PLUS,JAC_A5 PLUS,轿车
+869,0869,长安凯程_睿行EM80,Changan Kaicheng_Ruixing EM80,微面
+870,0870,宝马_宝马4系,BMW_BMW 4 Series,轿车
+871,0871,埃安_AION Y,GAC Aion_AION Y,SUV
+872,0872,捷途_捷途大圣i-DM,Jetour_Daisheng i-DM,SUV
+873,0873,蔚来_蔚来EC6,NIO_EC6,SUV
+874,0874,日产_ARIYA 艾睿雅,Nissan_ARIYA,SUV
+875,0875,长安凯程_睿行M60,Changan Kaicheng_Rui Xing M60,微面
+876,0876,江铃集团新能源_易至EV3,Jiangling Motors New Energy_Easy EV3,轿车
+877,0877,中国重汽VGV_VGV U70,China National Heavy Duty Truck Group VGV_U70,SUV
+878,0878,阿斯顿·马丁_V12 Vantage,Aston Martin_V12 Vantage,跑车
+879,0879,法拉利_法拉利Roma,Ferrari_Ferrari Roma,跑车
+880,0880,长安跨越_新豹T3,Changan Kuayue_New Leopard T3,卡车
+881,0881,启辰_启辰大V DD-i超混动,Venucia_Venucia D V DD-i Super Hybrid,SUV
+882,0882,日产_劲客,Nissan_Kicks,SUV
+883,0883,长安_锐程PLUS,Changan_Raeton PLUS,轿车
+884,0884,比亚迪_宋PLUS DM-i,BYD_Song PLUS DM-i,SUV
+885,0885,比亚迪_护卫舰 07,BYD_Frigate 07,SUV
+886,0886,五菱汽车_五菱征程,Wuling_Journey,MPV
+887,0887,长安跨越_跨越者D5,Changan Kuayue_Kuayue D5,卡车
+888,0888,魏牌_摩卡DHT-PHEV,Wei Brand_Mocha DHT-PHEV,SUV
+889,0889,奇瑞新能源_小蚂蚁,Chery New Energy_Little Ant,轿车
+890,0890,长安_览拓者,Changan_Explorer,卡车
+891,0891,路特斯_Evija,Lotus_Evija,跑车
+892,0892,日产_Cube,Nissan_Cube,轿车
+893,0893,奇瑞新能源_无界Pro,Chery New Energy_Boundary Pro,轿车
+894,0894,北汽制造_212,Beiqi_Manufacturing 212,SUV
+895,0895,福特_福特F-150 Raptor,Ford_Ford F-150 Raptor,卡车
+896,0896,长安启源_长安启源A07,Changan Qiyuan_Changan Qiyuan A07,轿车
+897,0897,丰田_威驰,Toyota_Vios,轿车
+898,0898,丰田_奕泽IZOA,Toyota_C-HR IZOA,SUV
+899,0899,领克_领克02 Hatchback,Lynk & Co_02 Hatchback,轿车
+900,0900,荣威_荣威RX5 MAX,Roewe_RX5 MAX,SUV
+901,0901,捷途_捷途X70 PRO,Jetour_X70 PRO,SUV
+902,0902,日产_奇骏,Nissan_X-Trail,SUV
+903,0903,星途_星途TX,Exeed_TX,SUV
+904,0904,智己汽车_智己L7,ZiJi_L7,轿车
+905,0905,法拉利_California T,Ferrari_California T,跑车
+906,0906,宝马_宝马7系PHEV,BMW_7 Series PHEV,轿车
+907,0907,福田_大将军G7,Foton_General G7,卡车
+908,0908,江铃_大道,JMC_Dadao,卡车
+909,0909,Jeep_角斗士,Jeep_Gladiator,卡车
+910,0910,小虎_小虎FEV,Xiaohu_Xiaohu FEV,轿车
+911,0911,奔腾_奔腾T99,Besturn_T99,SUV
+912,0912,五菱汽车_五菱征途,Wuling Motors_Wuling Zhengtu,卡车
+913,0913,DS_DS 4,DS_4,轿车
+914,0914,五菱汽车_五菱宏光S3,Wuling Motors_Wuling Hongguang S3,MPV
+915,0915,江淮瑞风_瑞风L6 MAX,JAC_Refine L6 MAX,MPV
+916,0916,奥迪_奥迪RS 4,Audi_RS 4,轿车
+917,0917,丰田_卡罗拉,Toyota_Corolla,轿车
+918,0918,长安跨越_跨越王X3,Changan Kuayue_Kuayue King X3,卡车
+919,0919,捷豹_捷豹XEL,Jaguar_Jaguar XEL,轿车
+920,0920,比亚迪_海豹DM-i,BYD_Seal DM-i,轿车
+921,0921,长安_长安Lumin,Changan_Changan Lumin,轿车
+922,0922,林肯_飞行家,Lincoln_Aviator,SUV
+923,0923,丰田_卡罗拉锐放,Toyota_Corolla Cross,SUV
+924,0924,名爵_MG6 PHEV,MG_MG6 PHEV,轿车
+925,0925,吉利汽车_熊猫,Geely_Panda,轿车
+926,0926,福田_风景G9,Foton_View G9,轻客
+927,0927,大众_揽巡,Volkswagen_Touareg,SUV
+928,0928,路虎_揽胜运动版,Land Rover_Range Rover Sport,SUV
+929,0929,一汽_森雅鸿雁,FAW_Senya R7,SUV
+930,0930,大众_帕萨特PHEV,Volkswagen_Passat PHEV,轿车
+931,0931,星途_星途瑶光,Exeed_Exeed Yaoguang,SUV
+932,0932,凌宝汽车_凌宝Uni,Lingbao Auto_Lingbao Uni,轿车
+933,0933,福特_Ranger,Ford_Ranger,卡车
+934,0934,比亚迪_汉EV,BYD_Han EV,轿车
+935,0935,比亚迪_宋PLUS EV,BYD_Song PLUS EV,SUV
+936,0936,奔驰_奔驰GLC,Mercedes-Benz_Mercedes-Benz GLC,SUV
+937,0937,荣威_荣威RX9,Roewe_RX9,SUV
+938,0938,奔腾_奔腾NAT,Besturn_Besturn NAT,MPV
+939,0939,ARCFOX极狐_极狐 阿尔法T,ARCFOX_αT,SUV
+940,0940,长安欧尚_长安欧尚X5 PLUS,Changan Oushang_Changan Oushang X5 PLUS,SUV
+941,0941,启辰_启辰T60,Venucia_T60,SUV
+942,0942,五十铃_瑞迈,Isuzu_Ruimai,卡车
+943,0943,奇瑞_艾瑞泽8,Chery_Arrizo 8,轿车
+944,0944,迈凯伦_迈凯伦GT,McLaren_McLaren GT,跑车
+945,0945,星途_星途追风,Exeed_TxL,SUV
+946,0946,玛莎拉蒂_GranTurismo,Maserati_GranTurismo,跑车
+947,0947,奇瑞_瑞虎7 PLUS PHEV,Chery_Tiggo 7 PLUS PHEV,SUV
+948,0948,依维柯_依维柯欧胜,Iveco_Eurocargo,轻客
+949,0949,AITO_问界M7,AITO_Ask World M7,SUV
+950,0950,Jeep_牧马人,Jeep_Wrangler,SUV
+951,0951,哈弗_哈弗枭龙MAX,Haval_Haval Jolion MAX,SUV
+952,0952,特斯拉_Model 3,Tesla_Model 3,轿车
+953,0953,雷克萨斯_雷克萨斯LC,Lexus_Lexus LC,跑车
+954,0954,五菱汽车_五菱龙卡,Wuling Motors_Wuling Dragon Truck,卡车
+955,0955,斯巴鲁_OUTBACK傲虎,Subaru_Outback,SUV
+956,0956,荣威_荣威D7 DMH,Roewe_D7 DMH,轿车
+957,0957,福特_领裕,Ford_Evolve,SUV
+958,0958,奔驰_奔驰GLS,Mercedes-Benz_Mercedes-Benz GLS,SUV
+959,0959,斯柯达_柯米克,Škoda_Kamiq,SUV
+960,0960,捷达_捷达VS7,Jetta_VS7,SUV
+961,0961,沃尔沃_沃尔沃S60,Volvo_Volvo S60,轿车
+962,0962,现代_伊兰特Elantra N,Hyundai_Elantra N,轿车
+963,0963,欧拉_欧拉闪电猫,Ora_Lightning Cat,轿车
+964,0964,长城_炮,Great Wall_Cannon,卡车
+965,0965,江铃_顺威小卡,Jiangling_Shunwei Mini Truck,卡车
+966,0966,比亚迪_汉DM,BYD_Han DM,轿车
+967,0967,长安跨越_跨越王X5,Changan Kuayue_Kuayue King X5,卡车
+968,0968,吉利汽车_缤越,Geely_Binyue,SUV
+969,0969,ARCFOX极狐_极狐考拉,ARCFOX_ARCFOX Koala,MPV
+970,0970,福田_火星9,Foton_Mars 9,卡车
+971,0971,沃尔沃_沃尔沃S90 RECHARGE,Volvo_S90 Recharge,轿车
+972,0972,上汽大通MAXUS_上汽大通MAXUS 新途V70,SAIC Maxus_SAIC Maxus New Tour V70,轻客
+973,0973,江淮钇为_钇为3,JAC Yawei_Yawei 3,轿车
+974,0974,东风小康_东风小康K07S,Dongfeng Xiaokang_Dongfeng Xiaokang K07S,微面
+975,0975,日产_轩逸,Nissan_Sylphy,轿车
+976,0976,星途_星途凌云,Exeed_Exeed Cloud,SUV
+977,0977,宝马_宝马X2,BMW_BMW X2,SUV
+978,0978,领克_领克01,Lynk & Co_Lynk & Co 01,SUV
+979,0979,雪佛兰_创酷,Chevrolet_Trax,SUV
+980,0980,现代_帕里斯帝,Hyundai_Palisade,SUV
+981,0981,依维柯_依维柯聚星,Iveco_Juxing,轻客
+982,0982,大力牛魔王_大力牛魔王D02,Daliniu Demon King_Daliniu Demon King D02,卡车
+983,0983,江淮瑞风_瑞风M4,JAC_Refine M4,MPV
+984,0984,斯柯达_昕锐,Škoda_ScalA,轿车
+985,0985,飞凡汽车_飞凡F7,Feifan Auto_Feifan F7,轿车
+986,0986,现代_索纳塔,Hyundai_Sonata,轿车
+987,0987,领克_领克03,Lynk & Co_Lynk & Co 03,轿车
+988,0988,五菱汽车_五菱宏光V,Wuling Motors_Wuling Hongguang V,微面
+989,0989,比亚迪_秦PLUS EV,BYD_Qin PLUS EV,轿车
+990,0990,奔驰_奔驰GLE AMG,Mercedes-Benz_GLE AMG,SUV
+991,0991,丰田_亚洲狮,Toyota_Asian Lion,轿车
+992,0992,大众_帕萨特,Volkswagen_Passat,轿车
+993,0993,长安凯程_长安星卡,Changan Kaicheng_Changan Star Truck,卡车
+994,0994,奥迪_奥迪Q2L e-tron,Audi_Audi Q2L e-tron,SUV
+995,0995,深蓝汽车_深蓝SL03,Deep Blue Auto_Deep Blue SL03,轿车
+996,0996,红旗_红旗H6,Hongqi_Hongqi H6,轿车
+997,0997,奔腾_奔腾M9,Besturn_M9,MPV
+998,0998,哈弗_哈弗二代大狗PHEV,Haval_Haval Big Dog 2nd Gen PHEV,SUV
+999,0999,LUMMA_LUMMA CLR V,LUMMA_CLR V,MPV
