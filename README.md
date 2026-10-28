@@ -1,8 +1,16 @@
 # 车辆型号识别系统
 
 > 从 196 类美国车到 1000 类中国车，再到一块 300 元开发板上的实时识别
+>  — A 1000-class Chinese vehicle recognition system built with ResNet-50,
+deployed on a K230D edge board (28 FPS, fully offline, 25.87 MB INT8 model),
+plus a ReAct agent that compares local and cloud vision models side by side.
 
-基于深度学习的细粒度车辆型号识别，包含**模型训练**、**数据集更换论证**、**端侧部署**与**大模型智能体对照**四个阶段。
+基于深度学习的细粒度车辆型号识别，包含**模型训练**、**数据集更换**、**端侧部署**与**大模型智能体对照**四个阶段。
+| | |
+|---|---|
+| Accuracy | Top-1 **86.77%** / Top-5 98.16% / vehicle-type 98.24% |
+| Edge deployment | 97.41 MB → **25.87 MB** INT8, **28 FPS** offline on K230D |
+| Agent | Local model + cloud multimodal LLM + web search, via ReAct loop |
 
 ![图 5 技术路线全景](01_技术路线图/arch_overview.png)
 
